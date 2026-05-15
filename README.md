@@ -172,12 +172,12 @@ Currently under investigation.
 ---
 
 # Future Improvements
-
-- NeoPixel LED integration
-- Ambient Light Sensor integration
-- Additional Haptic Effects
-- 3D Printed Case
-- GUI improvements
+- [ ] Fix Motor Alignment Issue
+- [ ] NeoPixel LED integration
+- [ ]  Ambient Light Sensor integration
+- [ ] Additional Haptic Effects
+- [ ] 3D Printed Case
+- [ ] GUI improvements
 
 ---
 
