@@ -1,0 +1,10 @@
+../App/hw/src/timer.c:12:6:timerInit	1
+../App/hw/src/timer.c:21:6:HAL_TIM_PeriodElapsedCallback	9
+../App/hw/src/timer.c:90:6:timerGetFlag_1ms	2
+../App/hw/src/timer.c:100:6:timerGetFlag_5ms	2
+../App/hw/src/timer.c:110:6:timerGetFlag_10ms	2
+../App/hw/src/timer.c:120:6:timerGetFlag_15ms	2
+../App/hw/src/timer.c:130:6:timerGetFlag_20ms	2
+../App/hw/src/timer.c:140:6:timerGetFlag_50ms	2
+../App/hw/src/timer.c:150:6:timerGetFlag_100ms	2
+../App/hw/src/timer.c:160:6:timerGetFlag_500ms	2

@@ -1,0 +1,4 @@
+../App/hw/src/lvgl.c:53:6:cliCmd	8
+../App/hw/src/lvgl.c:17:6:lvglInit	2
+../App/hw/src/lvgl.c:36:6:lvglDeInit	1
+../App/hw/src/lvgl.c:41:6:lvglUpdate	3

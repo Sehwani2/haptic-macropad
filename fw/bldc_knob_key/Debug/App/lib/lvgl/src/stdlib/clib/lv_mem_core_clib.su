@@ -1,0 +1,9 @@
+../App/lib/lvgl/src/stdlib/clib/lv_mem_core_clib.c:36:6:lv_mem_init	0	static
+../App/lib/lvgl/src/stdlib/clib/lv_mem_core_clib.c:41:6:lv_mem_deinit	0	static
+../App/lib/lvgl/src/stdlib/clib/lv_mem_core_clib.c:47:15:lv_mem_add_pool	0	static
+../App/lib/lvgl/src/stdlib/clib/lv_mem_core_clib.c:55:6:lv_mem_remove_pool	0	static
+../App/lib/lvgl/src/stdlib/clib/lv_mem_core_clib.c:62:8:lv_malloc_core	0	static
+../App/lib/lvgl/src/stdlib/clib/lv_mem_core_clib.c:67:8:lv_realloc_core	0	static
+../App/lib/lvgl/src/stdlib/clib/lv_mem_core_clib.c:72:6:lv_free_core	0	static
+../App/lib/lvgl/src/stdlib/clib/lv_mem_core_clib.c:77:6:lv_mem_monitor_core	0	static
+../App/lib/lvgl/src/stdlib/clib/lv_mem_core_clib.c:84:13:lv_mem_test_core	0	static

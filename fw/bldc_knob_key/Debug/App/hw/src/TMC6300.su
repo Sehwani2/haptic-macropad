@@ -1,0 +1,14 @@
+../App/hw/src/TMC6300.c:79:6:inversePark	32	static
+../App/hw/src/TMC6300.c:92:6:inverseClarke	0	static
+../App/hw/src/TMC6300.c:103:6:setPhasePWM	24	static
+../App/hw/src/TMC6300.c:132:7:limitVoltage	0	static
+../App/hw/src/TMC6300.c:142:6:motorFOC	16	static
+../App/hw/src/TMC6300.c:155:6:motorAlign	16	static
+../App/hw/src/TMC6300.c:53:6:TMCInit	8	static
+../App/hw/src/TMC6300.c:194:7:getElectricalAngle	8	static
+../App/hw/src/TMC6300.c:207:6:haptic_set_callback	0	static
+../App/hw/src/TMC6300.c:212:6:TMC6300_SetHapticMode	0	static
+../App/hw/src/TMC6300.c:217:6:TMC6300_UpdateHaptic	32	static
+../App/hw/src/TMC6300.c:270:6:motorStep	0	static
+../App/hw/src/TMC6300.c:308:6:motorRun	16	static
+../App/hw/src/TMC6300.c:331:6:cliTmc6300	64	static

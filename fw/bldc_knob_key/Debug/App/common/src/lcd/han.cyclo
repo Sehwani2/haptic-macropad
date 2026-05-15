@@ -1,0 +1,5 @@
+../App/common/src/lcd/han.c:112:6:hanUniFontLoad	6
+../App/common/src/lcd/han.c:159:6:hanEngFontLoad	2
+../App/common/src/lcd/han.c:174:10:hanCnvCodeWan2Johab	1
+../App/common/src/lcd/han.c:71:6:hanWanFontLoad	6
+../App/common/src/lcd/han.c:23:10:hanFontLoad	5

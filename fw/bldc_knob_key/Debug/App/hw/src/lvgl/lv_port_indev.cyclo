@@ -1,0 +1,5 @@
+../App/hw/src/lvgl/lv_port_indev.c:120:13:keypad_read	12
+../App/hw/src/lvgl/lv_port_indev.c:48:6:lv_port_indev_init	1
+../App/hw/src/lvgl/lv_port_indev.c:96:14:get_keypad_indev	1
+../App/hw/src/lvgl/lv_port_indev.c:108:6:macro_req_set	1
+../App/hw/src/lvgl/lv_port_indev.c:113:5:macro_req_get	1

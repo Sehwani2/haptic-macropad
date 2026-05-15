@@ -1,0 +1,8 @@
+../App/lib/lvgl/src/indev/lv_indev_scroll.c:570:16:find_snap_point_y	12
+../App/lib/lvgl/src/indev/lv_indev_scroll.c:514:16:find_snap_point_x	12
+../App/lib/lvgl/src/indev/lv_indev_scroll.c:639:16:elastic_diff	22
+../App/lib/lvgl/src/indev/lv_indev_scroll.c:227:9:lv_indev_scroll_throw_predict	5
+../App/lib/lvgl/src/indev/lv_indev_scroll.c:115:6:lv_indev_scroll_throw_handler	33
+../App/lib/lvgl/src/indev/lv_indev_scroll.c:252:6:lv_indev_scroll_get_snap_dist	1
+../App/lib/lvgl/src/indev/lv_indev_scroll.c:258:12:lv_indev_find_scroll_obj	46
+../App/lib/lvgl/src/indev/lv_indev_scroll.c:46:6:lv_indev_scroll_handler	33

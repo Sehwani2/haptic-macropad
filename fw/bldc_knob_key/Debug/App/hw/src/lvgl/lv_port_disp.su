@@ -1,0 +1,4 @@
+../App/hw/src/lvgl/lv_port_disp.c:91:13:disp_flush	8	static
+../App/hw/src/lvgl/lv_port_disp.c:44:6:lv_port_disp_init	16	static
+../App/hw/src/lvgl/lv_port_disp.c:75:6:disp_enable_update	0	static
+../App/hw/src/lvgl/lv_port_disp.c:82:6:disp_disable_update	0	static

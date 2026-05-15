@@ -1,0 +1,12 @@
+../App/hw/src/st7789.c:77:6:st7789DoneISR	1
+../App/hw/src/st7789.c:134:6:writedata	1
+../App/hw/src/st7789.c:124:6:writecommand	1
+../App/hw/src/st7789.c:88:6:st7789IsReady	1
+../App/hw/src/st7789.c:93:6:st7789GetInfo	1
+../App/hw/src/st7789.c:114:10:st7789GetWidth	1
+../App/hw/src/st7789.c:119:10:st7789GetHeight	1
+../App/hw/src/st7789.c:205:6:st7789SetWindow	1
+../App/hw/src/st7789.c:222:6:st7789FillRect	12
+../App/hw/src/st7789.c:281:6:cliCmd	11
+../App/hw/src/st7789.c:57:6:st7789Init	2
+../App/hw/src/st7789.c:260:6:st7789SendBuffer	1

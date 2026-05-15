@@ -1,0 +1,7 @@
+../App/hw/src/usb/usb_msc/usbd_storage_if.c:177:8:STORAGE_Init_FS	0	static
+../App/hw/src/usb/usb_msc/usbd_storage_if.c:302:8:STORAGE_GetMaxLun_FS	0	static
+../App/hw/src/usb/usb_msc/usbd_storage_if.c:281:8:STORAGE_Write_FS	16	static
+../App/hw/src/usb/usb_msc/usbd_storage_if.c:257:8:STORAGE_Read_FS	16	static
+../App/hw/src/usb/usb_msc/usbd_storage_if.c:214:8:STORAGE_IsReady_FS	8	static
+../App/hw/src/usb/usb_msc/usbd_storage_if.c:191:8:STORAGE_GetCapacity_FS	56	static
+../App/hw/src/usb/usb_msc/usbd_storage_if.c:240:8:STORAGE_IsWriteProtected_FS	0	static

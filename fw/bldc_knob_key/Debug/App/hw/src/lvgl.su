@@ -1,0 +1,4 @@
+../App/hw/src/lvgl.c:53:6:cliCmd	24	static
+../App/hw/src/lvgl.c:17:6:lvglInit	8	static
+../App/hw/src/lvgl.c:36:6:lvglDeInit	0	static
+../App/hw/src/lvgl.c:41:6:lvglUpdate	8	static

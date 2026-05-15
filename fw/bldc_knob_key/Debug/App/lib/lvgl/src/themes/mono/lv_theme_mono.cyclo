@@ -1,0 +1,6 @@
+../App/lib/lvgl/src/themes/mono/lv_theme_mono.c:232:13:theme_apply	21
+../App/lib/lvgl/src/themes/mono/../../core/../misc/lv_style.h:561:20:lv_style_set_pad_all	1
+../App/lib/lvgl/src/themes/mono/lv_theme_mono.c:183:6:lv_theme_mono_is_inited	2
+../App/lib/lvgl/src/themes/mono/lv_theme_mono.c:522:13:style_init_reset	2
+../App/lib/lvgl/src/themes/mono/lv_theme_mono.c:190:6:lv_theme_mono_deinit	4
+../App/lib/lvgl/src/themes/mono/lv_theme_mono.c:206:14:lv_theme_mono_init	19

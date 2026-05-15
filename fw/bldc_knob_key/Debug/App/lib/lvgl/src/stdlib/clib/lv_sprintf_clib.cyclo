@@ -1,0 +1,2 @@
+../App/lib/lvgl/src/stdlib/clib/lv_sprintf_clib.c:40:5:lv_snprintf	1
+../App/lib/lvgl/src/stdlib/clib/lv_sprintf_clib.c:49:5:lv_vsnprintf	1

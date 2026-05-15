@@ -1,0 +1,2 @@
+../App/hw/src/cdc.c:9:6:cdcInit	1
+../App/hw/src/cdc.c:19:6:cdcIsInit	1

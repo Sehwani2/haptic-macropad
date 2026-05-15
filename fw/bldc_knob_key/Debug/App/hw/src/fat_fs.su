@@ -1,0 +1,2 @@
+../App/hw/src/fat_fs.c:63:13:cliCmd	640	static
+../App/hw/src/fat_fs.c:14:6:fatfsInit	8	static

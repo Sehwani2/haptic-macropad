@@ -1,0 +1,2 @@
+../App/lib/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c:211:28:lv_draw_sw_blend_color_to_rgb565	64	static
+../App/lib/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c:362:28:lv_draw_sw_blend_image_to_rgb565	64	static

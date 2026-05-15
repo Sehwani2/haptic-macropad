@@ -1,0 +1,11 @@
+../App/lib/lvgl/src/libs/fsdrv/lv_fs_fatfs.c:225:20:fs_tell	1
+../App/lib/lvgl/src/libs/fsdrv/lv_fs_fatfs.c:238:15:fs_dir_open	3
+../App/lib/lvgl/src/libs/fsdrv/lv_fs_fatfs.c:292:20:fs_dir_close	1
+../App/lib/lvgl/src/libs/fsdrv/lv_fs_fatfs.c:181:20:fs_write	1
+../App/lib/lvgl/src/libs/fsdrv/lv_fs_fatfs.c:164:20:fs_read	1
+../App/lib/lvgl/src/libs/fsdrv/lv_fs_fatfs.c:146:20:fs_close	1
+../App/lib/lvgl/src/libs/fsdrv/lv_fs_fatfs.c:117:15:fs_open	5
+../App/lib/lvgl/src/libs/fsdrv/lv_fs_fatfs.c:198:20:fs_seek	4
+../App/lib/lvgl/src/libs/fsdrv/lv_fs_fatfs.c:261:20:fs_dir_read.part.0.constprop	6
+../App/lib/lvgl/src/libs/fsdrv/lv_fs_fatfs.c:261:20:fs_dir_read	2
+../App/lib/lvgl/src/libs/fsdrv/lv_fs_fatfs.c:67:6:lv_fs_fatfs_init	1

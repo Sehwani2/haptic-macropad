@@ -1,0 +1,5 @@
+../App/hw/src/usb.c:31:6:usbInit	0	static
+../App/hw/src/usb.c:38:6:usbDeInit	0	static
+../App/hw/src/usb.c:46:9:usbGetMode	0	static
+../App/hw/src/usb.c:51:6:usbBegin	8	static
+../App/hw/src/usb.c:137:6:usbHidSendReport	8	static

@@ -1,0 +1,10 @@
+../App/hw/src/usb/usb_hid/usbd_hid.c:640:18:USBD_HID_DataIn	0	static
+../App/hw/src/usb/usb_hid/usbd_hid.c:657:19:USBD_HID_GetDeviceQualifierDesc	0	static
+../App/hw/src/usb/usb_hid/usbd_hid.c:579:19:USBD_HID_GetFSCfgDesc	8	static
+../App/hw/src/usb/usb_hid/usbd_hid.c:619:19:USBD_HID_GetOtherSpeedCfgDesc	0	static
+../App/hw/src/usb/usb_hid/usbd_hid.c:599:19:USBD_HID_GetHSCfgDesc	8	static
+../App/hw/src/usb/usb_hid/usbd_hid.c:384:16:USBD_HID_Setup	16	static
+../App/hw/src/usb/usb_hid/usbd_hid.c:353:16:USBD_HID_DeInit	16	static
+../App/hw/src/usb/usb_hid/usbd_hid.c:306:16:USBD_HID_Init	16	static
+../App/hw/src/usb/usb_hid/usbd_hid.c:516:11:USBD_HID_SendReport	8	static
+../App/hw/src/usb/usb_hid/usbd_hid.c:549:12:USBD_HID_GetPollingInterval	0	static

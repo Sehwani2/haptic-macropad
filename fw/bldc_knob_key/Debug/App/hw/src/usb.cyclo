@@ -1,0 +1,5 @@
+../App/hw/src/usb.c:31:6:usbInit	1
+../App/hw/src/usb.c:38:6:usbDeInit	2
+../App/hw/src/usb.c:46:9:usbGetMode	1
+../App/hw/src/usb.c:51:6:usbBegin	10
+../App/hw/src/usb.c:137:6:usbHidSendReport	2

@@ -1,0 +1,12 @@
+../App/lib/lvgl/src/stdlib/clib/lv_string_clib.c:38:30:lv_memcpy	1
+../App/lib/lvgl/src/stdlib/clib/lv_string_clib.c:43:28:lv_memset	1
+../App/lib/lvgl/src/stdlib/clib/lv_string_clib.c:48:30:lv_memmove	1
+../App/lib/lvgl/src/stdlib/clib/lv_string_clib.c:53:5:lv_memcmp	1
+../App/lib/lvgl/src/stdlib/clib/lv_string_clib.c:58:8:lv_strlen	1
+../App/lib/lvgl/src/stdlib/clib/lv_string_clib.c:63:8:lv_strlcpy	3
+../App/lib/lvgl/src/stdlib/clib/lv_string_clib.c:74:8:lv_strncpy	1
+../App/lib/lvgl/src/stdlib/clib/lv_string_clib.c:79:8:lv_strcpy	1
+../App/lib/lvgl/src/stdlib/clib/lv_string_clib.c:84:5:lv_strcmp	1
+../App/lib/lvgl/src/stdlib/clib/lv_string_clib.c:89:8:lv_strdup	2
+../App/lib/lvgl/src/stdlib/clib/lv_string_clib.c:100:8:lv_strcat	1
+../App/lib/lvgl/src/stdlib/clib/lv_string_clib.c:105:8:lv_strncat	1

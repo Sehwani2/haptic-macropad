@@ -1,0 +1,10 @@
+../App/hw/src/lvgl/lv_port_fs.c:215:20:fs_tell	1
+../App/hw/src/lvgl/lv_port_fs.c:254:20:fs_dir_read	4
+../App/hw/src/lvgl/lv_port_fs.c:227:15:fs_dir_open	4
+../App/hw/src/lvgl/lv_port_fs.c:284:20:fs_dir_close	1
+../App/hw/src/lvgl/lv_port_fs.c:187:20:fs_seek	4
+../App/hw/src/lvgl/lv_port_fs.c:171:20:fs_write	1
+../App/hw/src/lvgl/lv_port_fs.c:154:20:fs_read	1
+../App/hw/src/lvgl/lv_port_fs.c:137:20:fs_close	1
+../App/hw/src/lvgl/lv_port_fs.c:105:15:fs_open	7
+../App/hw/src/lvgl/lv_port_fs.c:56:6:lv_port_fs_init	1

@@ -1,0 +1,10 @@
+../App/lib/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:114:13:lv_bin_decoder_info	9
+../App/lib/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:1060:20:fs_read_file_at	3
+../App/lib/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:537:13:free_decoder_data	5
+../App/lib/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:365:6:lv_bin_decoder_close	3
+../App/lib/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:520:25:get_decoder_data	3
+../App/lib/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:554:20:decode_indexed.constprop	11
+../App/lib/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:823:20:decode_alpha_only.constprop	12
+../App/lib/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:180:13:lv_bin_decoder_open	29
+../App/lib/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:378:13:lv_bin_decoder_get_area	24
+../App/lib/lvgl/src/libs/bin_decoder/lv_bin_decoder.c:95:6:lv_bin_decoder_init	2

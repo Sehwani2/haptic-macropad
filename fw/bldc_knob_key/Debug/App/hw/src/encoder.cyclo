@@ -1,0 +1,12 @@
+../App/hw/src/encoder.c:35:6:encoderUpdateVelocity	1
+../App/hw/src/encoder.c:51:7:encoderGetVelocity	1
+../App/hw/src/encoder.c:60:6:encoderInit	1
+../App/hw/src/encoder.c:76:9:encoderGetRaw	1
+../App/hw/src/encoder.c:84:6:encoderUpdate	6
+../App/hw/src/encoder.c:110:7:encoderGetAngle	7
+../App/hw/src/encoder.c:137:9:encoderGetCount	1
+../App/hw/src/encoder.c:142:9:encoderGetDir	1
+../App/hw/src/encoder.c:147:6:encoderReset	1
+../App/hw/src/encoder.c:181:13:cliEncoder	21
+../App/hw/src/encoder.c:156:6:encoderConsumeZ	2
+../App/hw/src/encoder.c:167:6:HAL_GPIO_EXTI_Callback	2

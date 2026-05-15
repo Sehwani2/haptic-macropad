@@ -1,0 +1,7 @@
+../App/lib/lvgl/src/draw/sw/lv_draw_sw.c:392:16:evaluate	11
+../App/lib/lvgl/src/draw/sw/lv_draw_sw.c:430:16:dispatch	14
+../App/lib/lvgl/src/draw/sw/lv_draw_sw.c:164:6:lv_draw_sw_init	1
+../App/lib/lvgl/src/draw/sw/lv_draw_sw.c:189:6:lv_draw_sw_deinit	1
+../App/lib/lvgl/src/draw/sw/lv_draw_sw.c:219:6:lv_draw_sw_rgb565_swap	4
+../App/lib/lvgl/src/draw/sw/lv_draw_sw.c:253:6:lv_draw_sw_i1_invert	7
+../App/lib/lvgl/src/draw/sw/lv_draw_sw.c:284:6:lv_draw_sw_rotate	13

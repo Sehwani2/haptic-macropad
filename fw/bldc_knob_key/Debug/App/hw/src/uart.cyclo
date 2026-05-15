@@ -1,0 +1,13 @@
+../App/hw/src/uart.c:59:6:uartInit	1
+../App/hw/src/uart.c:74:6:uartDeInit	1
+../App/hw/src/uart.c:79:6:uartIsInit	1
+../App/hw/src/uart.c:84:6:uartOpen	5
+../App/hw/src/uart.c:148:6:uartClose	2
+../App/hw/src/uart.c:157:10:uartAvailable	2
+../App/hw/src/uart.c:191:9:uartRead	3
+../App/hw/src/uart.c:173:6:uartFlush	3
+../App/hw/src/uart.c:213:10:uartWrite	4
+../App/hw/src/uart.c:238:10:uartPrintf	1
+../App/hw/src/uart.c:256:10:uartGetBaud	2
+../App/hw/src/uart.c:268:10:uartGetRxCnt	2
+../App/hw/src/uart.c:275:10:uartGetTxCnt	2

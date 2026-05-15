@@ -1,0 +1,7 @@
+../App/lib/lvgl/src/widgets/switch/lv_switch.c:217:13:lv_switch_anim_completed	1
+../App/lib/lvgl/src/widgets/switch/lv_switch.c:207:13:lv_switch_anim_exec_cb	1
+../App/lib/lvgl/src/widgets/switch/lv_switch.c:103:13:lv_switch_destructor	1
+../App/lib/lvgl/src/widgets/switch/lv_switch.c:87:13:lv_switch_constructor	1
+../App/lib/lvgl/src/widgets/switch/lv_switch.c:148:13:draw_main	4
+../App/lib/lvgl/src/widgets/switch/lv_switch.c:111:13:lv_switch_event	8
+../App/lib/lvgl/src/widgets/switch/lv_switch.c:75:12:lv_switch_create	1
