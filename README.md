@@ -178,6 +178,7 @@ Currently under investigation.
 - [ ] Additional Haptic Effects
 - [ ] 3D Printed Case
 - [ ] GUI improvements
+- [ ] RTOS porting
 
 ---
 
