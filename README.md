@@ -1,4 +1,4 @@
-# STM32 Haptic Macro Pad
+# STM32 Haptic Macro Pad(Work in Progress)
 
 Custom STM32-based macro pad featuring BLDC haptic feedback, USB HID, SD card filesystem, and LCD GUI.
 
@@ -6,9 +6,6 @@ Custom STM32-based macro pad featuring BLDC haptic feedback, USB HID, SD card fi
 
 ## IMG
 
-| Hardware |
-|---|---|
-| ![](hw/PCB.jpg) |
 
 ---
 
@@ -126,25 +123,6 @@ CTRL+C
 
 ---
 
-# Supported Commands
-
-| Command | Description |
-|---|---|
-| `STRING` | Sends text input |
-| `ENTER` | Press Enter key |
-| `CTRL+C` | Send keyboard shortcut |
-| `CTRL T` | Open new tab |
-| `SHIFT` | Modifier key |
-| `ALT` | Modifier key |
-
----
-
-# Notes
-
-- Macro files are plain text files.
-- Commands are parsed line-by-line.
-- USB HID mode must be enabled for macro execution.
-- Image assets should be converted into LVGL-compatible binary format before use.
 
 # Issues & Troubleshooting
 
