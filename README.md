@@ -1,5 +1,7 @@
 # STM32 Haptic Macro Pad(Work in Progress)
 
+![IMG_5864.jpeg](attachment:c9206c6d-acd2-4fb3-844b-bb2fcd7629f6:IMG_5864.jpeg)
+
 한국어 NOTION : https://www.notion.so/haptic-knob-300518d85eb98059bbadc6083b9559b0?source=copy_link
 
 Custom STM32-based macro pad featuring BLDC haptic feedback, USB HID, SD card filesystem, and LCD GUI.
