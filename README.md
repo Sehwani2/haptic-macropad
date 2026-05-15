@@ -68,6 +68,84 @@ Python utility for converting image assets (`png`, `jpeg`) into LVGL-compatible 
 
 ---
 
+# Usage
+
+## USB Storage Structure
+
+When the device is connected in USB MSC mode, the storage is organized as follows:
+
+```text
+/
+├── img/
+│   ├── 0-1.bin
+│   └── 0-2.txt
+│
+└── macro/
+    ├── 0-1.txt
+    └── 0-2.txt
+```
+
+---
+
+# Image Files
+
+Image assets used by the LCD GUI are stored inside the `img` directory.
+
+| File Type | Description |
+|---|---|
+| `.bin` | LVGL binary image data |
+| `.txt` | Text resource |
+
+Example:
+
+```text
+img/0-1.bin
+```
+
+---
+
+# Macro Files
+
+Macro scripts are stored inside the `macro` directory.
+
+Each macro file contains keyboard actions and string commands that are executed through USB HID.
+
+Example:
+
+```text
+CTRL T
+STRING https://www.youtube.com
+ENTER
+```
+
+Another example:
+
+```text
+CTRL+C
+```
+
+---
+
+# Supported Commands
+
+| Command | Description |
+|---|---|
+| `STRING` | Sends text input |
+| `ENTER` | Press Enter key |
+| `CTRL+C` | Send keyboard shortcut |
+| `CTRL T` | Open new tab |
+| `SHIFT` | Modifier key |
+| `ALT` | Modifier key |
+
+---
+
+# Notes
+
+- Macro files are plain text files.
+- Commands are parsed line-by-line.
+- USB HID mode must be enabled for macro execution.
+- Image assets should be converted into LVGL-compatible binary format before use.
+
 # Issues & Troubleshooting
 
 ## SD Card Initialization Error
