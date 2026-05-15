@@ -1,6 +1,8 @@
 # STM32 Haptic Macro Pad(Work in Progress)
 
-![IMG_5864.jpeg](attachment:c9206c6d-acd2-4fb3-844b-bb2fcd7629f6:IMG_5864.jpeg)
+<img width="400" height="300" alt="img" src="https://github.com/user-attachments/assets/4b0f69e3-72f3-46c9-b3d9-88cf5c8958e4" />
+
+
 
 한국어 NOTION : https://www.notion.so/haptic-knob-300518d85eb98059bbadc6083b9559b0?source=copy_link
 
