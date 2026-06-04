@@ -161,15 +161,12 @@ For future revisions:
 should be considered.
 
 ---
-
-## Motor Alignment Issue
-
-Motor alignment occasionally fails during startup.
-
 Possible causes:
 - Initial electrical angle issue
 - Encoder offset issue
-- Startup sequence timing
+- FOC control loop timing issue (suspected)
+
+The FOC control loop may not be running with sufficient timing determinism during startup. Migration to an RTOS-based implementation is being evaluated.
 
 Currently under investigation.
 
