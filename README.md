@@ -161,19 +161,18 @@ For future revisions:
 should be considered.
 
 ---
-BLDC Motor Startup Realignment & Vibration (Resolved)
+##BLDC Motor Startup Realignment & Vibration (Resolved)
+
 During the initial startup calibration (D-axis alignment), the motor occasionally experienced high-frequency vibration or failure to align. This happened when the rotor was accidentally positioned at a 180° electrical angle relative to the target vector—creating a physical equilibrium dead-lock—or due to raw register noise from the encoder on power-up.
 
-Solution
+###Solution
+
 Developed an anti-deadlock startup sequence in firmware:
 
 Encoder Dummy Loop: Flushes initial hardware register spikes for 300ms before triggering the align phase.
-
 Phase-Kick Start: Forcefully injects a 90° phase offset for 50ms to instantly break any physical equilibrium dead-lock regardless of the rotor's initial resting position.
-
 Soft-Start Ramp: Smoothly ramps up the alignment voltage to lock the target 0° electrical angle without physical resonance or overshoot.
 
-This fully resolved the startup jitter, ensuring a reliable 100% alignment rate.
 
 Future Improvements
 [x] Fix Motor Alignment & Startup Jitter Issue
