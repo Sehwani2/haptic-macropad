@@ -178,6 +178,7 @@ Soft-Start Ramp: Smoothly ramps up the alignment voltage to lock the target 0° 
 
 
 Future Improvements
+
 [x] Fix Motor Alignment & Startup Jitter Issue
 
 [ ] NeoPixel LED integration
