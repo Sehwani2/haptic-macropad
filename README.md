@@ -161,11 +161,11 @@ For future revisions:
 should be considered.
 
 ---
-##BLDC Motor Startup Realignment & Vibration (Resolved)
+## BLDC Motor Startup Realignment & Vibration (Resolved)
 
 During the initial startup calibration (D-axis alignment), the motor occasionally experienced high-frequency vibration or failure to align. This happened when the rotor was accidentally positioned at a 180° electrical angle relative to the target vector—creating a physical equilibrium dead-lock—or due to raw register noise from the encoder on power-up.
 
-###Solution
+### Solution
 
 Developed an anti-deadlock startup sequence in firmware:
 
