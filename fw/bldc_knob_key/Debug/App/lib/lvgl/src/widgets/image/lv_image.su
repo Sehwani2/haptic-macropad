@@ -16,7 +16,7 @@
 ../App/lib/lvgl/src/widgets/image/lv_image.c:374:6:lv_image_set_scale_x	0	static
 ../App/lib/lvgl/src/widgets/image/lv_image.c:390:6:lv_image_set_scale_y	0	static
 ../App/lib/lvgl/src/widgets/image/lv_image.c:270:6:lv_image_set_rotation	64	static
-../App/lib/lvgl/src/widgets/image/lv_image.c:315:6:lv_image_set_pivot	64	static
+../App/lib/lvgl/src/widgets/image/lv_image.c:315:6:lv_image_set_pivot	72	static
 ../App/lib/lvgl/src/widgets/image/lv_image.c:851:13:update_align	16	static
 ../App/lib/lvgl/src/widgets/image/lv_image.c:148:6:lv_image_set_src	64	static
 ../App/lib/lvgl/src/widgets/image/lv_image.c:431:6:lv_image_set_inner_align	16	static

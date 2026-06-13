@@ -3,7 +3,7 @@
 ../App/lib/lvgl/src/misc/lv_style.c:201:17:lv_style_register_prop	6
 ../App/lib/lvgl/src/misc/lv_style.c:237:17:lv_style_get_num_custom_props	1
 ../App/lib/lvgl/src/misc/lv_style.c:242:6:lv_style_remove_prop	7
-../App/lib/lvgl/src/misc/lv_style.c:287:6:lv_style_set_prop	7
+../App/lib/lvgl/src/misc/lv_style.c:287:6:lv_style_set_prop	8
 ../App/lib/lvgl/src/misc/lv_style.c:336:16:lv_style_get_prop	6
 ../App/lib/lvgl/src/misc/lv_style.c:341:6:lv_style_transition_dsc_init	1
 ../App/lib/lvgl/src/misc/lv_style.c:352:18:lv_style_prop_get_default	18

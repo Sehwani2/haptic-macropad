@@ -10,12 +10,12 @@
 ../App/lib/lvgl/src/misc/lv_anim.c:75:6:lv_anim_init	8	static
 ../App/lib/lvgl/src/misc/lv_anim.c:86:13:lv_anim_start	16	static
 ../App/lib/lvgl/src/misc/lv_anim.c:131:10:lv_anim_get_playtime	0	static
-../App/lib/lvgl/src/misc/lv_anim.c:145:6:lv_anim_delete	24	static
+../App/lib/lvgl/src/misc/lv_anim.c:145:6:lv_anim_delete	16	static
 ../App/lib/lvgl/src/misc/lv_anim.c:168:6:lv_anim_delete_all	8	static
 ../App/lib/lvgl/src/misc/lv_anim.c:70:6:lv_anim_core_deinit	0	static
 ../App/lib/lvgl/src/misc/lv_anim.c:174:13:lv_anim_get	16	static
 ../App/lib/lvgl/src/misc/lv_anim.c:186:14:lv_anim_get_timer	0	static
-../App/lib/lvgl/src/misc/lv_anim.c:191:10:lv_anim_count_running	16	static
+../App/lib/lvgl/src/misc/lv_anim.c:191:10:lv_anim_count_running	8	static
 ../App/lib/lvgl/src/misc/lv_anim.c:200:10:lv_anim_speed_clamped	12	static
 ../App/lib/lvgl/src/misc/lv_anim.c:225:10:lv_anim_speed	0	static
 ../App/lib/lvgl/src/misc/lv_anim.c:230:10:lv_anim_speed_to_time	0	static

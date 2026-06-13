@@ -10,7 +10,7 @@ void apInit(void)
   macro_init();
   cliOpen(_DEF_UART1, 115200);
   cliLogo();
-  gpioPinWrite(0, 1);
+  gpioPinWrite(0, 1);	//lcd led on
   ui_init();
 }
 

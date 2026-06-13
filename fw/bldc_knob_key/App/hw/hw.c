@@ -25,9 +25,10 @@ bool hwInit(void)
   st7789Init();
   lcdInit();
   lvglInit();
+  timerInit();
+
   encoderInit();
   TMCInit();
-  timerInit();
 
   if(buttonGetPressed(0)==1)
   {
@@ -35,6 +36,7 @@ bool hwInit(void)
   }
   else
   {
+
     usbBegin(USB_HID_MODE);
   }
 

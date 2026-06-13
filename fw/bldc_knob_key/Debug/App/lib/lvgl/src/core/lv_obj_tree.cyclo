@@ -12,7 +12,7 @@
 ../App/lib/lvgl/src/core/lv_obj_tree.c:593:31:walk_core	8
 ../App/lib/lvgl/src/core/lv_obj_tree.c:406:10:lv_obj_get_child_count_by_type	4
 ../App/lib/lvgl/src/core/lv_obj_tree.c:419:9:lv_obj_get_index	5
-../App/lib/lvgl/src/core/lv_obj_tree.c:504:13:obj_delete_core	19
+../App/lib/lvgl/src/core/lv_obj_tree.c:504:13:obj_delete_core	20
 ../App/lib/lvgl/src/core/lv_obj_tree.c:52:6:lv_obj_delete	7
 ../App/lib/lvgl/src/core/lv_obj_tree.c:483:13:lv_obj_delete_async_cb	1
 ../App/lib/lvgl/src/core/lv_obj_tree.c:132:6:lv_obj_delete_anim_completed_cb	1

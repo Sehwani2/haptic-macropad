@@ -4,7 +4,7 @@
 ../App/lib/lvgl/src/misc/lv_color.c:109:10:lv_color_to_u16	8	static
 ../App/lib/lvgl/src/misc/lv_color.c:114:10:lv_color_to_u32	8	static
 ../App/lib/lvgl/src/misc/lv_color.c:130:12:lv_color_hsv_to_rgb	24	static
-../App/lib/lvgl/src/misc/lv_color.c:188:16:lv_color_rgb_to_hsv	32	static
+../App/lib/lvgl/src/misc/lv_color.c:188:16:lv_color_rgb_to_hsv	40	static
 ../App/lib/lvgl/src/misc/lv_color.c:239:16:lv_color_to_hsv	16	static
 ../App/lib/lvgl/src/misc/lv_color.c:244:9:lv_color_format_get_size	8	static
 ../App/lib/lvgl/src/misc/lv_color.c:249:10:lv_color_to_int	8	static

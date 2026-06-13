@@ -4,7 +4,7 @@ App/lib/lvgl/src/misc/cache/lv_image_cache.o: \
  ../App/lib/lvgl/src/misc/cache/../../draw/lv_image_decoder.h \
  ../App/lib/lvgl/src/misc/cache/../../draw/../lv_conf_internal.h \
  ../App/lib/lvgl/src/misc/cache/../../draw/../lv_conf_kconfig.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h \
  ../App/lib/lvgl/src/misc/cache/../../draw/lv_draw_buf.h \
  ../App/lib/lvgl/src/misc/cache/../../draw/../misc/lv_types.h \
  ../App/lib/lvgl/src/misc/cache/../../draw/../misc/../lv_conf_internal.h \
@@ -203,7 +203,7 @@ App/lib/lvgl/src/misc/cache/lv_image_cache.o: \
 ../App/lib/lvgl/src/misc/cache/../../draw/lv_image_decoder.h:
 ../App/lib/lvgl/src/misc/cache/../../draw/../lv_conf_internal.h:
 ../App/lib/lvgl/src/misc/cache/../../draw/../lv_conf_kconfig.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h:
 ../App/lib/lvgl/src/misc/cache/../../draw/lv_draw_buf.h:
 ../App/lib/lvgl/src/misc/cache/../../draw/../misc/lv_types.h:
 ../App/lib/lvgl/src/misc/cache/../../draw/../misc/../lv_conf_internal.h:

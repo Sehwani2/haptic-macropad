@@ -1,7 +1,7 @@
 ../App/lib/lvgl/src/widgets/menu/lv_menu.c:586:13:lv_menu_destructor	0	static
 ../App/lib/lvgl/src/widgets/menu/lv_menu.c:632:13:lv_menu_section_constructor	8	static
 ../App/lib/lvgl/src/widgets/menu/lv_menu.c:624:13:lv_menu_cont_constructor	8	static
-../App/lib/lvgl/src/widgets/menu/lv_menu.c:519:13:lv_menu_constructor	24	static
+../App/lib/lvgl/src/widgets/menu/lv_menu.c:519:13:lv_menu_constructor	16	static
 ../App/lib/lvgl/src/widgets/menu/lv_menu.c:796:13:lv_menu_value_changed_event_cb	8	static
 ../App/lib/lvgl/src/widgets/menu/lv_menu.c:611:13:lv_menu_page_destructor	8	static
 ../App/lib/lvgl/src/widgets/menu/lv_menu.c:751:13:lv_menu_obj_delete_event_cb	8	static

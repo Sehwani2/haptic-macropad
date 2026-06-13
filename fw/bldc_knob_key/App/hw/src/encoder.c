@@ -1,10 +1,10 @@
-
-
 #include "encoder.h"
+#include <math.h>
 
 #ifdef _USE_HW_ENCODER
 
 #include "cli.h"
+
 extern TIM_HandleTypeDef htim3;
 
 #define PPR 1024
@@ -15,44 +15,13 @@ extern TIM_HandleTypeDef htim3;
 static uint16_t enc_prev = 0;
 static int32_t  enc_pos  = 0;
 static int8_t   enc_dir  = 0;
-
-static float angle_filtered = 0.0f;
+static float    velocity = 0;
 
 volatile static uint8_t z_flag = 0;
-
-
-
 
 #ifdef _USE_HW_CLI
 static void cliEncoder(cli_args_t *args);
 #endif
-
-///////
-//vel
-static float prev_angle = 0;
-static float velocity = 0;
-
-void encoderUpdateVelocity(float dt)
-{
-    static int32_t prev_pos = 0;
-    int32_t pos = encoderGetCount();
-    int32_t diff = pos - prev_pos;
-    prev_pos = pos;
-
-    float vel = ((float)diff / (PPR * 4)) * (360.0f / dt);
-
-
-    float alpha = 0.02f;
-    velocity = alpha * vel + (1.0f - alpha) * velocity;
-
-    if (fabsf(velocity) < 0.1f) velocity = 0;
-}
-
-float encoderGetVelocity(void)
-{
-//    printf("%f \r\n",velocity);
-    return velocity;
-}
 
 // ------------------------------
 // 초기화
@@ -64,7 +33,7 @@ bool encoderInit(void)
 
   enc_prev = 0;
   enc_pos  = 0;
-  angle_filtered = 0;
+  velocity = 0.0f;
 
 #ifdef _USE_HW_CLI
   cliAdd("encoder", cliEncoder);
@@ -73,29 +42,14 @@ bool encoderInit(void)
   return true;
 }
 
-int32_t encoderGetRaw(void)
-{
-  return (int32_t)(uint16_t)__HAL_TIM_GET_COUNTER(&htim3);
-}
-
 // ------------------------------
 // 업데이트
 // ------------------------------
 void encoderUpdate(void)
 {
     uint16_t now = (uint16_t)__HAL_TIM_GET_COUNTER(&htim3);
-    int32_t diff = (int32_t)now - (int32_t)enc_prev;
-
-    // wrap 보정
-    if(diff > 32768)  diff -= 65536;
-    if(diff < -32768) diff += 65536;
-
+    int16_t diff = (int16_t)(now - enc_prev);
     enc_prev = now;
-
-    if(diff > 100 || diff < -100)
-    {
-      return;
-    }
 
     enc_pos -= diff;
 
@@ -105,35 +59,55 @@ void encoderUpdate(void)
 }
 
 // ------------------------------
-// 각도
+// 기계각 계산 (0 ~ 360도 정규화)
 // ------------------------------
 float encoderGetAngle(void)
 {
-    float angle_raw;
 
-    angle_raw = (float)enc_pos * 360.0f / (PPR * 4);
+    float angle_raw = (float)enc_pos * 360.0f / (PPR * 4);
 
-    // wrap
-    while(angle_raw >= 360.0f) angle_raw -= 360.0f;
-    while(angle_raw < 0.0f)    angle_raw += 360.0f;
+    angle_raw = fmodf(angle_raw, 360.0f);
+    if(angle_raw < 0.0f)
+    {
+        angle_raw += 360.0f;
+    }
 
-    // unwrap + LPF
-    float diff = angle_raw - angle_filtered;
-
-    if(diff > 180.0f)  diff -= 360.0f;
-    if(diff < -180.0f) diff += 360.0f;
-
-
-    angle_filtered += diff * 0.8f;
-
-    // wrap
-    if(angle_filtered >= 360.0f) angle_filtered -= 360.0f;
-    if(angle_filtered < 0.0f)    angle_filtered += 360.0f;
-
-    return angle_filtered;
+    return angle_raw;
 }
 
 // ------------------------------
+// 속도 계산
+// ------------------------------
+void encoderUpdateVelocity(float dt)
+{
+    static int32_t prev_pos = 0;
+    int32_t pos = enc_pos;
+    int32_t diff = pos - prev_pos;
+    prev_pos = pos;
+
+    if (dt <= 0.0f) return;
+
+    // 현재 diff 기반의 초당 회전 각도(deg/s) 계산
+    float vel = ((float)diff / (PPR * 4)) * (360.0f / dt);
+
+    // 속도 노이즈용 LPF
+    float alpha = 0.02f;
+    velocity = alpha * vel + (1.0f - alpha) * velocity;
+
+    // 미세 떨림 데드밴드 제거
+    if (fabsf(velocity) < 0.1f) velocity = 0.0f;
+}
+
+float encoderGetVelocity(void)
+{
+    return velocity;
+}
+
+int32_t encoderGetRaw(void)
+{
+  return (int32_t)(uint16_t)__HAL_TIM_GET_COUNTER(&htim3);
+}
+
 int32_t encoderGetCount(void)
 {
   return enc_pos;
@@ -149,9 +123,11 @@ void encoderReset(void)
   __HAL_TIM_SET_COUNTER(&htim3, 0);
   enc_prev = 0;
   enc_pos  = 0;
-  angle_filtered = 0;
+  velocity = 0.0f;
 }
 
+// ------------------------------
+// Z상 처리
 // ------------------------------
 bool encoderConsumeZ(void)
 {
@@ -163,7 +139,6 @@ bool encoderConsumeZ(void)
     return false;
 }
 
-// ------------------------------
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
     if(GPIO_Pin == Z_Pin)
@@ -172,17 +147,14 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
     }
 }
 
-
-
 /* -------------------------------------------------------------------------- */
-/* CLI                                                                        */
+/* CLI 명령어                                        */
 /* -------------------------------------------------------------------------- */
 #ifdef _USE_HW_CLI
 static void cliEncoder(cli_args_t *args)
 {
   bool ret = false;
 
-  /* RAW 카운터 확인 */
   if (args->argc == 1 && args->isStr(0, "raw"))
   {
     while (cliKeepLoop())
@@ -193,11 +165,9 @@ static void cliEncoder(cli_args_t *args)
     ret = true;
   }
 
-  /* 변화량(diff) 확인 */
   if (args->argc == 1 && args->isStr(0, "diff"))
   {
     uint16_t prev = encoderGetRaw();
-
     while (cliKeepLoop())
     {
       uint16_t now = encoderGetRaw();
@@ -210,7 +180,6 @@ static void cliEncoder(cli_args_t *args)
     ret = true;
   }
 
-  /* 위치(pos) 확인 */
   if (args->argc == 1 && args->isStr(0, "pos"))
   {
     while (cliKeepLoop())
@@ -222,43 +191,36 @@ static void cliEncoder(cli_args_t *args)
     ret = true;
   }
 
-  /* reset */
   if (args->argc == 1 && args->isStr(0, "reset"))
   {
     encoderReset();
     cliPrintf("encoder reset\n");
     ret = true;
   }
+
   if (args->argc == 1 && args->isStr(0, "dir"))
   {
     while (cliKeepLoop())
     {
       encoderUpdate();
-
       int8_t dir = encoderGetDir();
 
-      if (dir > 0)
-        cliPrintf("DIR: CW (+1)\n");
-      else if (dir < 0)
-        cliPrintf("DIR: CCW (-1)\n");
-      else
-        cliPrintf("DIR: STOP (0)\n");
+      if (dir > 0)       cliPrintf("DIR: CW (+1)\n");
+      else if (dir < 0)  cliPrintf("DIR: CCW (-1)\n");
+      else               cliPrintf("DIR: STOP (0)\n");
 
       delay(100);
     }
     ret = true;
   }
-  /* 각도 확인 */
+
   if (args->argc == 1 && args->isStr(0, "angle"))
   {
     while (cliKeepLoop())
     {
       encoderUpdate();
-
       float angle = encoderGetAngle();
-
       cliPrintf("ANGLE: %.2f deg\n", angle);
-
       delay(100);
     }
     ret = true;

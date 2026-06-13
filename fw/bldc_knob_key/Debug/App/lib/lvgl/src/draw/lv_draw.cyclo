@@ -10,7 +10,7 @@
 ../App/lib/lvgl/src/draw/lv_draw.c:296:6:lv_draw_dispatch_request	1
 ../App/lib/lvgl/src/draw/lv_draw.c:305:10:lv_draw_get_unit_count	1
 ../App/lib/lvgl/src/draw/lv_draw.c:310:18:lv_draw_get_next_available_task	22
-../App/lib/lvgl/src/draw/lv_draw.c:377:10:lv_draw_get_dependent_count	7
+../App/lib/lvgl/src/draw/lv_draw.c:377:10:lv_draw_get_dependent_count	6
 ../App/lib/lvgl/src/draw/lv_draw.c:398:14:lv_draw_layer_create	4
 ../App/lib/lvgl/src/draw/lv_draw.c:427:8:lv_draw_layer_alloc_buf	5
 ../App/lib/lvgl/src/draw/lv_draw.c:456:8:lv_draw_layer_go_to_xy	1

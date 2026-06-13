@@ -1,5 +1,5 @@
 ../App/hw/src/lvgl/lv_port_fs.c:215:20:fs_tell	0	static
-../App/hw/src/lvgl/lv_port_fs.c:254:20:fs_dir_read	296	static
+../App/hw/src/lvgl/lv_port_fs.c:254:20:fs_dir_read	304	static
 ../App/hw/src/lvgl/lv_port_fs.c:227:15:fs_dir_open	144	static
 ../App/hw/src/lvgl/lv_port_fs.c:284:20:fs_dir_close	8	static
 ../App/hw/src/lvgl/lv_port_fs.c:187:20:fs_seek	8	static

@@ -3,7 +3,7 @@ App/lib/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.o: \
  ../App/lib/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.h \
  ../App/lib/lvgl/src/drivers/nuttx/../../lv_conf_internal.h \
  ../App/lib/lvgl/src/drivers/nuttx/../../lv_conf_kconfig.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h \
  ../App/lib/lvgl/src/drivers/nuttx/../../core/lv_global.h \
  ../App/lib/lvgl/src/drivers/nuttx/../../core/../lv_conf_internal.h \
  ../App/lib/lvgl/src/drivers/nuttx/../../core/../misc/lv_types.h \
@@ -446,7 +446,7 @@ App/lib/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.o: \
 ../App/lib/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.h:
 ../App/lib/lvgl/src/drivers/nuttx/../../lv_conf_internal.h:
 ../App/lib/lvgl/src/drivers/nuttx/../../lv_conf_kconfig.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h:
 ../App/lib/lvgl/src/drivers/nuttx/../../core/lv_global.h:
 ../App/lib/lvgl/src/drivers/nuttx/../../core/../lv_conf_internal.h:
 ../App/lib/lvgl/src/drivers/nuttx/../../core/../misc/lv_types.h:

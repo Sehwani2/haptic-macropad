@@ -4,7 +4,7 @@ App/lib/lvgl/src/others/monkey/lv_monkey.o: \
  ../App/lib/lvgl/src/others/monkey/lv_monkey.h \
  ../App/lib/lvgl/src/others/monkey/../../lv_conf_internal.h \
  ../App/lib/lvgl/src/others/monkey/../../lv_conf_kconfig.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h \
  ../App/lib/lvgl/src/others/monkey/../../indev/lv_indev.h \
  ../App/lib/lvgl/src/others/monkey/../../indev/../core/lv_group.h \
  ../App/lib/lvgl/src/others/monkey/../../indev/../core/../lv_conf_internal.h \
@@ -27,7 +27,7 @@ App/lib/lvgl/src/others/monkey/lv_monkey.o: \
 ../App/lib/lvgl/src/others/monkey/lv_monkey.h:
 ../App/lib/lvgl/src/others/monkey/../../lv_conf_internal.h:
 ../App/lib/lvgl/src/others/monkey/../../lv_conf_kconfig.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h:
 ../App/lib/lvgl/src/others/monkey/../../indev/lv_indev.h:
 ../App/lib/lvgl/src/others/monkey/../../indev/../core/lv_group.h:
 ../App/lib/lvgl/src/others/monkey/../../indev/../core/../lv_conf_internal.h:

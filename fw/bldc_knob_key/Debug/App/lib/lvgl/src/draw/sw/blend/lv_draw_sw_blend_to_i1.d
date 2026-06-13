@@ -5,7 +5,7 @@ App/lib/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.o: \
  ../App/lib/lvgl/src/draw/sw/blend/../../lv_draw.h \
  ../App/lib/lvgl/src/draw/sw/blend/../../../lv_conf_internal.h \
  ../App/lib/lvgl/src/draw/sw/blend/../../../lv_conf_kconfig.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h \
  ../App/lib/lvgl/src/draw/sw/blend/../../../misc/lv_types.h \
  ../App/lib/lvgl/src/draw/sw/blend/../../../misc/../lv_conf_internal.h \
  ../App/lib/lvgl/src/draw/sw/blend/../../../misc/lv_style.h \
@@ -162,7 +162,7 @@ App/lib/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.o: \
 ../App/lib/lvgl/src/draw/sw/blend/../../lv_draw.h:
 ../App/lib/lvgl/src/draw/sw/blend/../../../lv_conf_internal.h:
 ../App/lib/lvgl/src/draw/sw/blend/../../../lv_conf_kconfig.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h:
 ../App/lib/lvgl/src/draw/sw/blend/../../../misc/lv_types.h:
 ../App/lib/lvgl/src/draw/sw/blend/../../../misc/../lv_conf_internal.h:
 ../App/lib/lvgl/src/draw/sw/blend/../../../misc/lv_style.h:

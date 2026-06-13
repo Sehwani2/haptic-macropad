@@ -6,16 +6,17 @@
 #ifdef _USE_HW_ENCODER
 
 bool     encoderInit(void);
-int32_t  encoderGetRaw(void);    // x4 raw
-uint8_t encoderGetDir(void);
-int32_t  encoderGetCount(void);  // 1 click = 1
-void encoderClearDir(void);
-void encoderUpdate(void);
+void     encoderUpdate(void);
+void     encoderUpdateVelocity(float dt);
+
+int32_t  encoderGetRaw(void);
+int32_t  encoderGetCount(void);
+uint8_t  encoderGetDir(void);
+float    encoderGetAngle(void);
+float    encoderGetVelocity(void);
+
 void     encoderReset(void);
-bool encoderConsumeZ(void);
-float encoderGetAngle(void);
-void encoderUpdateVelocity(float dt);
-float encoderGetVelocity(void);
+bool     encoderConsumeZ(void);
 
 #endif
 

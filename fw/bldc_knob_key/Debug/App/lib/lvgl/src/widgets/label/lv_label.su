@@ -22,7 +22,7 @@
 ../App/lib/lvgl/src/widgets/label/lv_label.c:263:6:lv_label_set_text_selection_end	0	static
 ../App/lib/lvgl/src/widgets/label/lv_label.c:281:8:lv_label_get_text	0	static
 ../App/lib/lvgl/src/widgets/label/lv_label.c:288:22:lv_label_get_long_mode	0	static
-../App/lib/lvgl/src/widgets/label/lv_label.c:295:6:lv_label_get_letter_pos	120	static
+../App/lib/lvgl/src/widgets/label/lv_label.c:295:6:lv_label_get_letter_pos	128	static
 ../App/lib/lvgl/src/widgets/label/lv_label.c:402:10:lv_label_get_letter_on	0	static
 ../App/lib/lvgl/src/widgets/label/lv_label.c:522:6:lv_label_is_char_under_pos	104	static
 ../App/lib/lvgl/src/widgets/label/lv_label.c:596:10:lv_label_get_text_selection_start	0	static

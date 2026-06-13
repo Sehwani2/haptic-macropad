@@ -1,7 +1,7 @@
 ../App/lib/lvgl/src/widgets/imagebutton/lv_imagebutton.c:303:31:get_state	3
 ../App/lib/lvgl/src/widgets/imagebutton/lv_imagebutton.c:272:31:suggest_state	10
 ../App/lib/lvgl/src/widgets/imagebutton/lv_imagebutton.c:251:13:refr_image	2
-../App/lib/lvgl/src/widgets/imagebutton/lv_imagebutton.c:153:13:lv_imagebutton_event	18
+../App/lib/lvgl/src/widgets/imagebutton/lv_imagebutton.c:153:13:lv_imagebutton_event	16
 ../App/lib/lvgl/src/widgets/imagebutton/lv_imagebutton.c:324:13:update_src_info	3
 ../App/lib/lvgl/src/widgets/imagebutton/lv_imagebutton.c:142:13:lv_imagebutton_constructor	1
 ../App/lib/lvgl/src/widgets/imagebutton/lv_imagebutton.c:63:12:lv_imagebutton_create	1

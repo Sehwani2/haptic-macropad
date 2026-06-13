@@ -2,7 +2,7 @@
 #include "ui_home.h"
 #include "ui_macro.h"
 #include "lvgl.h"
-
+#include "TMC6300.h"
 
 
 static ui_state_t current_state;
@@ -43,11 +43,17 @@ void ui_change(ui_state_t state)
     switch(state)
     {
         case UI_HOME:
+            TMC6300_SetHapticMode(false);
             ui_home_create();
             break;
 
         case UI_MACRO:
+            TMC6300_SetHapticMode(true);
             ui_macro_create(current_bank);
+            break;
+
+        default:
+            TMC6300_SetHapticMode(false);
             break;
     }
 }

@@ -22,10 +22,10 @@
 ../App/lib/lvgl/src/draw/lv_draw_buf.c:315:17:lv_draw_buf_dup	1
 ../App/lib/lvgl/src/draw/lv_draw_buf.c:337:17:lv_draw_buf_reshape	5
 ../App/lib/lvgl/src/draw/lv_draw_buf.c:361:6:lv_draw_buf_destroy	5
-../App/lib/lvgl/src/draw/lv_draw_buf.c:378:8:lv_draw_buf_goto_xy	5
+../App/lib/lvgl/src/draw/lv_draw_buf.c:378:8:lv_draw_buf_goto_xy	4
 ../App/lib/lvgl/src/draw/lv_draw_buf.c:157:6:lv_draw_buf_clear	7
-../App/lib/lvgl/src/draw/lv_draw_buf.c:191:6:lv_draw_buf_copy	13
-../App/lib/lvgl/src/draw/lv_draw_buf.c:394:13:lv_draw_buf_adjust_stride	13
+../App/lib/lvgl/src/draw/lv_draw_buf.c:191:6:lv_draw_buf_copy	11
+../App/lib/lvgl/src/draw/lv_draw_buf.c:394:13:lv_draw_buf_adjust_stride	12
 ../App/lib/lvgl/src/draw/lv_draw_buf.c:457:13:lv_draw_buf_premultiply	16
 ../App/lib/lvgl/src/draw/lv_draw_buf.c:535:6:lv_draw_buf_set_palette	3
 ../App/lib/lvgl/src/draw/lv_draw_buf.c:549:6:lv_draw_buf_has_flag	1

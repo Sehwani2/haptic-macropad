@@ -4,7 +4,7 @@ App/lib/lvgl/src/misc/lv_profiler_builtin.o: \
  ../App/lib/lvgl/src/misc/lv_profiler_builtin.h \
  ../App/lib/lvgl/src/misc/../lv_conf_internal.h \
  ../App/lib/lvgl/src/misc/../lv_conf_kconfig.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h \
  ../App/lib/lvgl/src/misc/../lvgl.h ../App/lib/lvgl/src/misc/../../lvgl.h \
  ../App/lib/lvgl/src/misc/../../lv_version.h \
  ../App/lib/lvgl/src/misc/../../src/lv_init.h \
@@ -449,7 +449,7 @@ App/lib/lvgl/src/misc/lv_profiler_builtin.o: \
 ../App/lib/lvgl/src/misc/lv_profiler_builtin.h:
 ../App/lib/lvgl/src/misc/../lv_conf_internal.h:
 ../App/lib/lvgl/src/misc/../lv_conf_kconfig.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h:
 ../App/lib/lvgl/src/misc/../lvgl.h:
 ../App/lib/lvgl/src/misc/../../lvgl.h:
 ../App/lib/lvgl/src/misc/../../lv_version.h:

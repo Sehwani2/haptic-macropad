@@ -1,7 +1,7 @@
 App/hw/src/lcd.o: ../App/hw/src/lcd.c \
- C:/stm32/balancing_robot/bldc_knob_key/App/hw/include/lcd.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/hw/include/st7789.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/hw/hw_def.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/hw/include/lcd.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/hw/include/st7789.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/hw/hw_def.h \
  ../Core/Inc/main.h ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -36,17 +36,17 @@ App/hw/src/lcd.o: ../App/hw/src/lcd.c \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/common/def.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/common/err_code.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/common/evt_code.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/hw/include/st7789_regs.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/hw/include/gpio.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/common/include/cli.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/common/include/lcd/lcd_fonts.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/common/include/lcd/han.h
-C:/stm32/balancing_robot/bldc_knob_key/App/hw/include/lcd.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/hw/include/st7789.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/hw/hw_def.h:
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/common/def.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/common/err_code.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/common/evt_code.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/hw/include/st7789_regs.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/hw/include/gpio.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/common/include/cli.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/common/include/lcd/lcd_fonts.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/common/include/lcd/han.h
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/hw/include/lcd.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/hw/include/st7789.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/hw/hw_def.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -82,11 +82,11 @@ C:/stm32/balancing_robot/bldc_knob_key/App/hw/hw_def.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/common/def.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/common/err_code.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/common/evt_code.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/hw/include/st7789_regs.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/hw/include/gpio.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/common/include/cli.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/common/include/lcd/lcd_fonts.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/common/include/lcd/han.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/common/def.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/common/err_code.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/common/evt_code.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/hw/include/st7789_regs.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/hw/include/gpio.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/common/include/cli.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/common/include/lcd/lcd_fonts.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/common/include/lcd/han.h:

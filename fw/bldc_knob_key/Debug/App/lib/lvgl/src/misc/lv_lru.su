@@ -1,4 +1,4 @@
-../App/lib/lvgl/src/misc/lv_lru.c:265:17:lv_lru_hash	16	static
+../App/lib/lvgl/src/misc/lv_lru.c:265:17:lv_lru_hash	20	static
 ../App/lib/lvgl/src/misc/lv_lru.c:310:13:lv_lru_remove_item	16	static
 ../App/lib/lvgl/src/misc/lv_lru.c:74:12:lv_lru_create	24	static
 ../App/lib/lvgl/src/misc/lv_lru.c:101:6:lv_lru_delete	24	static

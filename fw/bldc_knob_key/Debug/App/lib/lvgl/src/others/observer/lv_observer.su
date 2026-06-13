@@ -23,7 +23,7 @@
 ../App/lib/lvgl/src/others/observer/lv_observer.c:568:24:bind_to_bitfield	24	static
 ../App/lib/lvgl/src/others/observer/lv_observer.c:336:17:lv_subject_add_observer_with_target	24	static
 ../App/lib/lvgl/src/others/observer/lv_observer.c:362:6:lv_observer_remove	8	static
-../App/lib/lvgl/src/others/observer/lv_observer.c:267:6:lv_subject_deinit	24	static
+../App/lib/lvgl/src/others/observer/lv_observer.c:267:6:lv_subject_deinit	16	static
 ../App/lib/lvgl/src/others/observer/lv_observer.c:562:13:unsubscribe_on_delete_cb	8	static
 ../App/lib/lvgl/src/others/observer/lv_observer.c:376:6:lv_obj_remove_from_subject	24	static
 ../App/lib/lvgl/src/others/observer/lv_observer.c:392:8:lv_observer_get_target	0	static

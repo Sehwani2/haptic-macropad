@@ -6,7 +6,7 @@
 ../App/lib/lvgl/src/misc/lv_area.c:69:10:lv_area_get_size	1
 ../App/lib/lvgl/src/misc/lv_area.c:78:6:lv_area_increase	1
 ../App/lib/lvgl/src/misc/lv_area.c:86:6:lv_area_move	1
-../App/lib/lvgl/src/misc/lv_area.c:94:6:lv_area_intersect	2
+../App/lib/lvgl/src/misc/lv_area.c:94:6:lv_area_intersect	1
 ../App/lib/lvgl/src/misc/lv_area.c:176:6:lv_area_join	1
 ../App/lib/lvgl/src/misc/lv_area.c:184:6:lv_area_is_point_on	10
 ../App/lib/lvgl/src/misc/lv_area.c:244:6:lv_area_is_on	4

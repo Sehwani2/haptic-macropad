@@ -226,5 +226,10 @@
 			<resource resourceType="PROJECT" workspacePath="/bldc_knob_key"/>
 		</configuration>
 	</storageModule>
-	<storageModule moduleId="scannerConfiguration"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1270379531;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1270379531.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.846392936;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.291865260">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
 </cproject>

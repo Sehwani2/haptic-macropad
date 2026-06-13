@@ -5,7 +5,7 @@ App/lib/lvgl/src/others/file_explorer/lv_file_explorer.o: \
  ../App/lib/lvgl/src/others/file_explorer/../../core/lv_obj.h \
  ../App/lib/lvgl/src/others/file_explorer/../../core/../lv_conf_internal.h \
  ../App/lib/lvgl/src/others/file_explorer/../../core/../lv_conf_kconfig.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h \
  ../App/lib/lvgl/src/others/file_explorer/../../core/../misc/lv_types.h \
  ../App/lib/lvgl/src/others/file_explorer/../../core/../misc/../lv_conf_internal.h \
  ../App/lib/lvgl/src/others/file_explorer/../../core/../misc/lv_style.h \
@@ -147,7 +147,7 @@ App/lib/lvgl/src/others/file_explorer/lv_file_explorer.o: \
 ../App/lib/lvgl/src/others/file_explorer/../../core/lv_obj.h:
 ../App/lib/lvgl/src/others/file_explorer/../../core/../lv_conf_internal.h:
 ../App/lib/lvgl/src/others/file_explorer/../../core/../lv_conf_kconfig.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h:
 ../App/lib/lvgl/src/others/file_explorer/../../core/../misc/lv_types.h:
 ../App/lib/lvgl/src/others/file_explorer/../../core/../misc/../lv_conf_internal.h:
 ../App/lib/lvgl/src/others/file_explorer/../../core/../misc/lv_style.h:

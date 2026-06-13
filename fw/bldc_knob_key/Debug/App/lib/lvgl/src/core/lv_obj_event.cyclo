@@ -10,7 +10,7 @@
 ../App/lib/lvgl/src/core/lv_obj_event.c:152:10:lv_obj_remove_event_cb_with_user_data	6
 ../App/lib/lvgl/src/core/lv_obj_event.c:171:12:lv_event_get_current_target_obj	1
 ../App/lib/lvgl/src/core/lv_obj_event.c:176:12:lv_event_get_target_obj	1
-../App/lib/lvgl/src/core/lv_obj_event.c:181:14:lv_event_get_indev	4
+../App/lib/lvgl/src/core/lv_obj_event.c:181:14:lv_event_get_indev	3
 ../App/lib/lvgl/src/core/lv_obj_event.c:210:14:lv_event_get_layer	2
 ../App/lib/lvgl/src/core/lv_obj_event.c:226:19:lv_event_get_old_size	2
 ../App/lib/lvgl/src/core/lv_obj_event.c:237:10:lv_event_get_key	3

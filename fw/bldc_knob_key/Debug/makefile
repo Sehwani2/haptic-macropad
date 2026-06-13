@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (12.3.rel1)
+# Toolchain: GNU Tools for STM32 (14.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -185,8 +185,8 @@ all: main-build
 main-build: bldc_knob_key.elf secondary-outputs
 
 # Tool invocations
-bldc_knob_key.elf bldc_knob_key.map: $(OBJS) $(USER_OBJS) C:\stm32\balancing_robot\bldc_knob_key\STM32F411RCTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "bldc_knob_key.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\stm32\balancing_robot\bldc_knob_key\STM32F411RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bldc_knob_key.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+bldc_knob_key.elf bldc_knob_key.map: $(OBJS) $(USER_OBJS) C:\stm32\balancing_robot\haptic-macropad\fw\bldc_knob_key\STM32F411RCTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "bldc_knob_key.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\stm32\balancing_robot\haptic-macropad\fw\bldc_knob_key\STM32F411RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bldc_knob_key.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

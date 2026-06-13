@@ -119,7 +119,6 @@ int main(void)
   /* USER CODE BEGIN 2 */
   hwInit();
 
-
   apInit();
   apMain();
   /* USER CODE END 2 */

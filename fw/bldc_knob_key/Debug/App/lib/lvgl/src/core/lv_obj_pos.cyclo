@@ -1,7 +1,7 @@
 ../App/lib/lvgl/src/core/lv_obj_style_gen.h:640:29:lv_obj_get_style_base_dir.constprop	1
 ../App/lib/lvgl/src/core/lv_obj_style.h:256:23:lv_obj_get_style_space_left.constprop	2
 ../App/lib/lvgl/src/core/lv_obj_pos.c:1151:13:transform_point_array	11
-../App/lib/lvgl/src/core/lv_obj_style.h:280:23:lv_obj_get_style_space_bottom.constprop	2
+../App/lib/lvgl/src/core/lv_obj_style.h:280:23:lv_obj_get_style_space_bottom.constprop	1
 ../App/lib/lvgl/src/core/lv_obj_style.h:272:23:lv_obj_get_style_space_top.constprop	2
 ../App/lib/lvgl/src/core/lv_obj_style.h:264:23:lv_obj_get_style_space_right.constprop	2
 ../App/lib/lvgl/src/core/lv_obj_pos.c:57:6:lv_obj_set_x	4

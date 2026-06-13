@@ -6,7 +6,7 @@
 ../App/hw/src/sd.c:123:6:sdIsBusy	8	static
 ../App/hw/src/sd.c:140:6:sdIsReady	16	static
 ../App/hw/src/sd.c:157:6:sdReadBlocks	16	static
-../App/hw/src/sd.c:249:6:cliSd	536	static
+../App/hw/src/sd.c:249:6:cliSd	528	static
 ../App/hw/src/sd.c:189:6:sdWriteBlocks	16	static
 ../App/hw/src/sd.c:221:6:sdEraseBlocks	8	static
 ../App/hw/src/sd.c:234:6:HAL_SD_RxCpltCallback	0	static

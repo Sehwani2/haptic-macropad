@@ -1,5 +1,5 @@
-../App/lib/lvgl/src/others/observer/lv_observer.c:591:13:obj_flag_observer_cb	4
-../App/lib/lvgl/src/others/observer/lv_observer.c:606:13:obj_state_observer_cb	4
+../App/lib/lvgl/src/others/observer/lv_observer.c:591:13:obj_flag_observer_cb	2
+../App/lib/lvgl/src/others/observer/lv_observer.c:606:13:obj_state_observer_cb	2
 ../App/lib/lvgl/src/others/observer/lv_observer.c:631:13:label_text_observer_cb	5
 ../App/lib/lvgl/src/others/observer/lv_observer.c:665:13:arc_value_observer_cb	1
 ../App/lib/lvgl/src/others/observer/lv_observer.c:682:13:slider_value_observer_cb	1

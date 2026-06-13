@@ -6,7 +6,7 @@ App/lib/lvgl/src/drivers/sdl/lv_sdl_keyboard.o: \
  ../App/lib/lvgl/src/drivers/sdl/../../display/../misc/lv_types.h \
  ../App/lib/lvgl/src/drivers/sdl/../../display/../misc/../lv_conf_internal.h \
  ../App/lib/lvgl/src/drivers/sdl/../../display/../misc/../lv_conf_kconfig.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h \
  ../App/lib/lvgl/src/drivers/sdl/../../display/../misc/lv_timer.h \
  ../App/lib/lvgl/src/drivers/sdl/../../display/../misc/../tick/lv_tick.h \
  ../App/lib/lvgl/src/drivers/sdl/../../display/../misc/../tick/../lv_conf_internal.h \
@@ -103,7 +103,7 @@ App/lib/lvgl/src/drivers/sdl/lv_sdl_keyboard.o: \
 ../App/lib/lvgl/src/drivers/sdl/../../display/../misc/lv_types.h:
 ../App/lib/lvgl/src/drivers/sdl/../../display/../misc/../lv_conf_internal.h:
 ../App/lib/lvgl/src/drivers/sdl/../../display/../misc/../lv_conf_kconfig.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h:
 ../App/lib/lvgl/src/drivers/sdl/../../display/../misc/lv_timer.h:
 ../App/lib/lvgl/src/drivers/sdl/../../display/../misc/../tick/lv_tick.h:
 ../App/lib/lvgl/src/drivers/sdl/../../display/../misc/../tick/../lv_conf_internal.h:

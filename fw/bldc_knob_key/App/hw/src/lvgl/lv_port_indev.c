@@ -24,7 +24,6 @@
 /**********************
  *  STATIC PROTOTYPES
  **********************/
-
 static void keypad_init(void);
 static void keypad_read(lv_indev_t * indev, lv_indev_data_t * data);
 static uint32_t keypad_get_key(void);

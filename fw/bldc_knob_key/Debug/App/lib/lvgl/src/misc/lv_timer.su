@@ -3,9 +3,9 @@
 ../App/lib/lvgl/src/misc/lv_timer.c:166:14:lv_timer_create	24	static
 ../App/lib/lvgl/src/misc/lv_timer.c:161:14:lv_timer_create_basic	0	static
 ../App/lib/lvgl/src/misc/lv_timer.c:189:6:lv_timer_set_cb	0	static
-../App/lib/lvgl/src/misc/lv_timer.c:195:6:lv_timer_delete	16	static
+../App/lib/lvgl/src/misc/lv_timer.c:195:6:lv_timer_delete	8	static
 ../App/lib/lvgl/src/misc/lv_timer.c:203:6:lv_timer_pause	0	static
-../App/lib/lvgl/src/misc/lv_timer.c:63:37:lv_timer_handler	40	static
+../App/lib/lvgl/src/misc/lv_timer.c:63:37:lv_timer_handler	32	static
 ../App/lib/lvgl/src/misc/lv_timer.c:151:33:lv_timer_periodic_handler	8	static
 ../App/lib/lvgl/src/misc/lv_timer.c:209:6:lv_timer_resume	0	static
 ../App/lib/lvgl/src/misc/lv_timer.c:216:6:lv_timer_set_period	0	static

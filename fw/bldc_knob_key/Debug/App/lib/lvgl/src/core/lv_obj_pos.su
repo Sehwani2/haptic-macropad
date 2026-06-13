@@ -46,7 +46,7 @@
 ../App/lib/lvgl/src/core/lv_obj_pos.c:928:6:lv_obj_get_click_area	0	static
 ../App/lib/lvgl/src/core/lv_obj_pos.c:936:6:lv_obj_hit_test	40	static
 ../App/lib/lvgl/src/core/lv_obj_pos.c:956:9:lv_clamp_width	12	static
-../App/lib/lvgl/src/core/lv_obj_pos.c:85:6:lv_obj_refr_size	104	static
+../App/lib/lvgl/src/core/lv_obj_pos.c:85:6:lv_obj_refr_size	96	static
 ../App/lib/lvgl/src/core/lv_obj_pos.c:1126:13:layout_update_core	16	static
 ../App/lib/lvgl/src/core/lv_obj_pos.c:293:6:lv_obj_update_layout	16	static
 ../App/lib/lvgl/src/core/lv_obj_pos.c:326:6:lv_obj_align_to	56	static

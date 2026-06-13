@@ -7,7 +7,7 @@
 ../App/lib/lvgl/src/layouts/flex/lv_flex.c:529:16:lv_obj_get_height_with_margin	16	static
 ../App/lib/lvgl/src/layouts/flex/lv_flex.c:522:16:lv_obj_get_width_with_margin	16	static
 ../App/lib/lvgl/src/layouts/flex/lv_flex.c:233:16:find_track_end	64	static
-../App/lib/lvgl/src/layouts/flex/lv_flex.c:126:13:flex_update	208	static
+../App/lib/lvgl/src/layouts/flex/lv_flex.c:126:13:flex_update	224	static
 ../App/lib/lvgl/src/layouts/flex/lv_flex.c:95:6:lv_flex_init	0	static
 ../App/lib/lvgl/src/layouts/flex/lv_flex.c:101:6:lv_obj_set_flex_flow	8	static
 ../App/lib/lvgl/src/layouts/flex/lv_flex.c:107:6:lv_obj_set_flex_align	16	static

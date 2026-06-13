@@ -4,11 +4,11 @@
 ../App/lib/lvgl/src/core/lv_refr.c:75:6:lv_refr_init	1
 ../App/lib/lvgl/src/core/lv_refr.c:79:6:lv_refr_deinit	1
 ../App/lib/lvgl/src/core/lv_refr.c:100:6:lv_obj_redraw	15
-../App/lib/lvgl/src/core/lv_refr.c:1015:13:refr_obj	22
+../App/lib/lvgl/src/core/lv_refr.c:1015:13:refr_obj	23
 ../App/lib/lvgl/src/core/lv_refr.c:810:13:refr_obj_and_children	6
 ../App/lib/lvgl/src/core/lv_refr.c:700:13:refr_area_part	22
 ../App/lib/lvgl/src/core/lv_refr.c:257:6:lv_inv_area	13
 ../App/lib/lvgl/src/core/lv_refr.c:334:16:lv_refr_get_disp_refreshing	1
 ../App/lib/lvgl/src/core/lv_refr.c:343:6:lv_refr_set_disp_refreshing	1
-../App/lib/lvgl/src/core/lv_refr.c:348:6:lv_display_refr_timer	48
+../App/lib/lvgl/src/core/lv_refr.c:348:6:lv_display_refr_timer	47
 ../App/lib/lvgl/src/core/lv_refr.c:83:6:lv_refr_now	5

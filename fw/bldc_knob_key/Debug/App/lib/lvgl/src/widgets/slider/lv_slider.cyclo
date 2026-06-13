@@ -12,7 +12,7 @@
 ../App/lib/lvgl/src/widgets/slider/lv_slider.c:116:9:lv_slider_get_min_value	1
 ../App/lib/lvgl/src/widgets/slider/lv_slider.c:121:9:lv_slider_get_max_value	1
 ../App/lib/lvgl/src/widgets/slider/lv_slider.c:126:18:lv_slider_get_mode	2
-../App/lib/lvgl/src/widgets/slider/lv_slider.c:458:13:update_knob_pos	32
+../App/lib/lvgl/src/widgets/slider/lv_slider.c:458:13:update_knob_pos	31
 ../App/lib/lvgl/src/widgets/slider/lv_slider.c:298:13:draw_knob	14
-../App/lib/lvgl/src/widgets/slider/lv_slider.c:159:13:lv_slider_event	33
+../App/lib/lvgl/src/widgets/slider/lv_slider.c:159:13:lv_slider_event	32
 ../App/lib/lvgl/src/widgets/slider/lv_slider.c:134:6:lv_slider_is_symmetrical	1

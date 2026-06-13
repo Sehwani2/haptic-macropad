@@ -13,7 +13,7 @@
 ../App/lib/lvgl/src/core/lv_obj.c:351:12:lv_obj_get_state	1
 ../App/lib/lvgl/src/core/lv_obj.c:358:6:lv_obj_has_state	1
 ../App/lib/lvgl/src/core/lv_obj.c:365:14:lv_obj_get_group	2
-../App/lib/lvgl/src/core/lv_obj.c:723:13:lv_obj_event	57
+../App/lib/lvgl/src/core/lv_obj.c:723:13:lv_obj_event	56
 ../App/lib/lvgl/src/core/lv_obj.c:514:13:lv_obj_destructor	4
 ../App/lib/lvgl/src/core/lv_obj.c:231:6:lv_obj_add_flag	9
 ../App/lib/lvgl/src/core/lv_obj.c:296:6:lv_obj_update_flag	2

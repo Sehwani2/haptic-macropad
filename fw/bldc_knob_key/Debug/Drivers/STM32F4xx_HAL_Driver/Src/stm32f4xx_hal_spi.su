@@ -25,7 +25,6 @@
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3079:13:SPI_DMARxAbortCallback	16	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3201:13:SPI_2linesTxISR_8BIT	0	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3138:13:SPI_2linesRxISR_8BIT	0	static
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2617:13:HAL_SPI_AbortCpltCallback	0	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:499:13:HAL_SPI_MspDeInit	0	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2503:13:HAL_SPI_TxCpltCallback	0	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2519:13:HAL_SPI_RxCpltCallback	0	static
@@ -34,6 +33,7 @@
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2567:13:HAL_SPI_RxHalfCpltCallback	0	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2583:13:HAL_SPI_TxRxHalfCpltCallback	0	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2599:13:HAL_SPI_ErrorCallback	0	static
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2617:13:HAL_SPI_AbortCpltCallback	0	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:313:19:HAL_SPI_Init	8	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:439:19:HAL_SPI_DeInit	8	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:519:19:HAL_SPI_RegisterCallback	0	static
@@ -42,7 +42,7 @@
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1140:19:HAL_SPI_TransmitReceive	40	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:940:19:HAL_SPI_Receive	40	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1391:19:HAL_SPI_Transmit_IT	8	static
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1564:19:HAL_SPI_TransmitReceive_IT	16	static
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1564:19:HAL_SPI_TransmitReceive_IT	12	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1473:19:HAL_SPI_Receive_IT	12	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1651:19:HAL_SPI_Transmit_DMA	16	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1865:19:HAL_SPI_TransmitReceive_DMA	16	static
@@ -52,6 +52,6 @@
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2314:19:HAL_SPI_DMAPause	0	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2334:19:HAL_SPI_DMAResume	0	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2354:19:HAL_SPI_DMAStop	16	static
-../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2396:6:HAL_SPI_IRQHandler	32	static
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2396:6:HAL_SPI_IRQHandler	40	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2652:22:HAL_SPI_GetState	0	static
 ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2664:10:HAL_SPI_GetError	0	static

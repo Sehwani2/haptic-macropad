@@ -1,6 +1,6 @@
 App/hw/src/usb/core/usbd_core.o: ../App/hw/src/usb/core/usbd_core.c \
  ../App/hw/src/usb/core/usbd_core.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/hw/src/usb/usbd_conf.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/hw/src/usb/usbd_conf.h \
  ../Core/Inc/main.h ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -38,7 +38,7 @@ App/hw/src/usb/core/usbd_core.o: ../App/hw/src/usb/core/usbd_core.c \
  ../App/hw/src/usb/core/usbd_def.h ../App/hw/src/usb/core/usbd_ioreq.h \
  ../App/hw/src/usb/core/usbd_ctlreq.h
 ../App/hw/src/usb/core/usbd_core.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/hw/src/usb/usbd_conf.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/hw/src/usb/usbd_conf.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:

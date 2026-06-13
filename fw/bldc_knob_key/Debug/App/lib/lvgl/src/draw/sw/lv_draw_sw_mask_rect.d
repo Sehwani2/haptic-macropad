@@ -4,7 +4,7 @@ App/lib/lvgl/src/draw/sw/lv_draw_sw_mask_rect.o: \
  ../App/lib/lvgl/src/draw/sw/../../misc/lv_area.h \
  ../App/lib/lvgl/src/draw/sw/../../misc/../lv_conf_internal.h \
  ../App/lib/lvgl/src/draw/sw/../../misc/../lv_conf_kconfig.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h \
  ../App/lib/lvgl/src/draw/sw/../../misc/lv_types.h \
  ../App/lib/lvgl/src/draw/sw/../../misc/lv_math.h \
  ../App/lib/lvgl/src/draw/sw/../lv_draw_mask_private.h \
@@ -122,7 +122,7 @@ App/lib/lvgl/src/draw/sw/lv_draw_sw_mask_rect.o: \
 ../App/lib/lvgl/src/draw/sw/../../misc/lv_area.h:
 ../App/lib/lvgl/src/draw/sw/../../misc/../lv_conf_internal.h:
 ../App/lib/lvgl/src/draw/sw/../../misc/../lv_conf_kconfig.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h:
 ../App/lib/lvgl/src/draw/sw/../../misc/lv_types.h:
 ../App/lib/lvgl/src/draw/sw/../../misc/lv_math.h:
 ../App/lib/lvgl/src/draw/sw/../lv_draw_mask_private.h:

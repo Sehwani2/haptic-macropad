@@ -5,7 +5,7 @@ App/lib/lvgl/src/themes/default/lv_theme_default.o: \
  ../App/lib/lvgl/src/themes/default/../../../src/lv_init.h \
  ../App/lib/lvgl/src/themes/default/../../../src/lv_conf_internal.h \
  ../App/lib/lvgl/src/themes/default/../../../src/lv_conf_kconfig.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h \
  ../App/lib/lvgl/src/themes/default/../../../src/misc/lv_types.h \
  ../App/lib/lvgl/src/themes/default/../../../src/misc/../lv_conf_internal.h \
  ../App/lib/lvgl/src/themes/default/../../../src/stdlib/lv_mem.h \
@@ -449,7 +449,7 @@ App/lib/lvgl/src/themes/default/lv_theme_default.o: \
 ../App/lib/lvgl/src/themes/default/../../../src/lv_init.h:
 ../App/lib/lvgl/src/themes/default/../../../src/lv_conf_internal.h:
 ../App/lib/lvgl/src/themes/default/../../../src/lv_conf_kconfig.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h:
 ../App/lib/lvgl/src/themes/default/../../../src/misc/lv_types.h:
 ../App/lib/lvgl/src/themes/default/../../../src/misc/../lv_conf_internal.h:
 ../App/lib/lvgl/src/themes/default/../../../src/stdlib/lv_mem.h:

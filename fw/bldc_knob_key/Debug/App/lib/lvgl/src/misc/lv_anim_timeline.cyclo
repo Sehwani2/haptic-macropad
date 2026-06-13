@@ -9,7 +9,7 @@
 ../App/lib/lvgl/src/misc/lv_anim_timeline.c:133:6:lv_anim_timeline_set_repeat_count	2
 ../App/lib/lvgl/src/misc/lv_anim_timeline.c:139:6:lv_anim_timeline_set_repeat_delay	2
 ../App/lib/lvgl/src/misc/lv_anim_timeline.c:154:10:lv_anim_timeline_get_playtime	4
-../App/lib/lvgl/src/misc/lv_anim_timeline.c:89:10:lv_anim_timeline_start	8
+../App/lib/lvgl/src/misc/lv_anim_timeline.c:89:10:lv_anim_timeline_start	7
 ../App/lib/lvgl/src/misc/lv_anim_timeline.c:145:6:lv_anim_timeline_set_progress	2
 ../App/lib/lvgl/src/misc/lv_anim_timeline.c:172:6:lv_anim_timeline_get_reverse	2
 ../App/lib/lvgl/src/misc/lv_anim_timeline.c:178:10:lv_anim_timeline_get_progress	2

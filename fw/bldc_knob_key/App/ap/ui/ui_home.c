@@ -1,6 +1,7 @@
 #include "ui_home.h"
 #include "ui_manager.h"
 #include "lvgl.h"
+#include "lv_port_indev.h"
 
 static void home_btn_event(lv_event_t *e)
 {

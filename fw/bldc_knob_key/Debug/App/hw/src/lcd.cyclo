@@ -6,7 +6,7 @@
 ../App/hw/src/lcd.c:51:6:lcdInit	2
 ../App/hw/src/lcd.c:116:10:lcdReadPixel	1
 ../App/hw/src/lcd.c:121:6:lcdDrawPixel	3
-../App/hw/src/lcd.c:451:6:lcdDrawLineBuffer	6
+../App/hw/src/lcd.c:451:6:lcdDrawLineBuffer	9
 ../App/hw/src/lcd.c:136:6:lcdClearBuffer	2
 ../App/hw/src/lcd.c:146:10:lcdGetDrawTime	1
 ../App/hw/src/lcd.c:186:6:lcdDrawCircleHelper	7

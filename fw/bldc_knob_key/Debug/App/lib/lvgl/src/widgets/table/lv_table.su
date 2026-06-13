@@ -8,7 +8,7 @@
 ../App/lib/lvgl/src/widgets/table/lv_table.c:1096:13:scroll_to_selected_cell	32	static
 ../App/lib/lvgl/src/widgets/table/lv_table.c:861:13:refr_size_form_row.constprop	88	static
 ../App/lib/lvgl/src/widgets/table/lv_table.c:887:13:refr_cell_size	96	static
-../App/lib/lvgl/src/widgets/table/lv_table.c:671:13:draw_main	608	static
+../App/lib/lvgl/src/widgets/table/lv_table.c:671:13:draw_main	616	static
 ../App/lib/lvgl/src/widgets/table/lv_table.c:550:13:lv_table_event	40	static
 ../App/lib/lvgl/src/widgets/table/lv_table.c:79:12:lv_table_create	8	static
 ../App/lib/lvgl/src/widgets/table/lv_table.c:203:6:lv_table_set_row_count	32	static

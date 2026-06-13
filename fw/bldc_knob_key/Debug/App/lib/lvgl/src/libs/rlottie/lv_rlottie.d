@@ -6,7 +6,7 @@ App/lib/lvgl/src/libs/rlottie/lv_rlottie.o: \
  ../App/lib/lvgl/src/libs/rlottie/../../../src/lv_init.h \
  ../App/lib/lvgl/src/libs/rlottie/../../../src/lv_conf_internal.h \
  ../App/lib/lvgl/src/libs/rlottie/../../../src/lv_conf_kconfig.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h \
  ../App/lib/lvgl/src/libs/rlottie/../../../src/misc/lv_types.h \
  ../App/lib/lvgl/src/libs/rlottie/../../../src/misc/../lv_conf_internal.h \
  ../App/lib/lvgl/src/libs/rlottie/../../../src/stdlib/lv_mem.h \
@@ -411,7 +411,7 @@ App/lib/lvgl/src/libs/rlottie/lv_rlottie.o: \
 ../App/lib/lvgl/src/libs/rlottie/../../../src/lv_init.h:
 ../App/lib/lvgl/src/libs/rlottie/../../../src/lv_conf_internal.h:
 ../App/lib/lvgl/src/libs/rlottie/../../../src/lv_conf_kconfig.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h:
 ../App/lib/lvgl/src/libs/rlottie/../../../src/misc/lv_types.h:
 ../App/lib/lvgl/src/libs/rlottie/../../../src/misc/../lv_conf_internal.h:
 ../App/lib/lvgl/src/libs/rlottie/../../../src/stdlib/lv_mem.h:

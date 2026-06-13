@@ -1,5 +1,5 @@
 ../App/ap/ui/ui_macro.c:35:13:macro_btn_event	2
-C:/stm32/balancing_robot/bldc_knob_key/App/lib/lvgl/src/core/lv_obj_style.h:196:20:lv_obj_set_style_pad_all.constprop	1
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lvgl/src/core/lv_obj_style.h:196:20:lv_obj_set_style_pad_all.constprop	1
 ../App/ap/ui/ui_macro.c:49:6:ui_macro_create	8
 ../App/ap/ui/ui_macro.c:159:9:ui_macro_get_bank	1
 ../App/ap/ui/ui_macro.c:170:6:ui_macro_process	3

@@ -50,7 +50,7 @@
 ../App/lib/lvgl/src/indev/lv_indev.c:1676:20:send_event	5
 ../App/lib/lvgl/src/indev/lv_indev.c:1148:13:indev_proc_press	70
 ../App/lib/lvgl/src/indev/lv_indev.c:1306:13:indev_proc_release	29
-../App/lib/lvgl/src/indev/lv_indev.c:204:6:lv_indev_read	154
+../App/lib/lvgl/src/indev/lv_indev.c:204:6:lv_indev_read	155
 ../App/lib/lvgl/src/indev/lv_indev.c:199:6:lv_indev_read_timer_cb	1
 ../App/lib/lvgl/src/indev/lv_indev.c:1636:13:indev_reset_core	13
 ../App/lib/lvgl/src/indev/lv_indev.c:404:6:lv_indev_reset	3

@@ -10,7 +10,7 @@
 ../App/lib/lvgl/src/misc/lv_fs.c:369:13:lv_fs_dir_close	8	static
 ../App/lib/lvgl/src/misc/lv_fs.c:391:6:lv_fs_drv_init	0	static
 ../App/lib/lvgl/src/misc/lv_fs.c:396:6:lv_fs_drv_register	8	static
-../App/lib/lvgl/src/misc/lv_fs.c:407:15:lv_fs_get_drv	16	static
+../App/lib/lvgl/src/misc/lv_fs.c:407:15:lv_fs_get_drv	8	static
 ../App/lib/lvgl/src/misc/lv_fs.c:65:6:lv_fs_is_ready	8	static
 ../App/lib/lvgl/src/misc/lv_fs.c:76:13:lv_fs_open	24	static
 ../App/lib/lvgl/src/misc/lv_fs.c:305:13:lv_fs_dir_open	16	static

@@ -4,7 +4,7 @@ App/lib/lvgl/src/misc/lv_style.o: ../App/lib/lvgl/src/misc/lv_style.c \
  ../App/lib/lvgl/src/misc/../font/lv_font.h \
  ../App/lib/lvgl/src/misc/../font/../lv_conf_internal.h \
  ../App/lib/lvgl/src/misc/../font/../lv_conf_kconfig.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h \
  ../App/lib/lvgl/src/misc/../font/../misc/lv_types.h \
  ../App/lib/lvgl/src/misc/../font/../misc/../lv_conf_internal.h \
  ../App/lib/lvgl/src/misc/../font/lv_symbol_def.h \
@@ -201,7 +201,7 @@ App/lib/lvgl/src/misc/lv_style.o: ../App/lib/lvgl/src/misc/lv_style.c \
 ../App/lib/lvgl/src/misc/../font/lv_font.h:
 ../App/lib/lvgl/src/misc/../font/../lv_conf_internal.h:
 ../App/lib/lvgl/src/misc/../font/../lv_conf_kconfig.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h:
 ../App/lib/lvgl/src/misc/../font/../misc/lv_types.h:
 ../App/lib/lvgl/src/misc/../font/../misc/../lv_conf_internal.h:
 ../App/lib/lvgl/src/misc/../font/lv_symbol_def.h:

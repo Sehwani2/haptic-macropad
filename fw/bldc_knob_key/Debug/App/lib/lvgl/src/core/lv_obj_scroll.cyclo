@@ -1,7 +1,7 @@
 ../App/lib/lvgl/src/core/lv_obj_style_gen.h:640:29:lv_obj_get_style_base_dir	1
 ../App/lib/lvgl/src/core/lv_obj_scroll.c:682:13:scroll_end_cb	2
 ../App/lib/lvgl/src/core/lv_obj_style.h:256:23:lv_obj_get_style_space_left.constprop	2
-../App/lib/lvgl/src/core/lv_obj_style.h:280:23:lv_obj_get_style_space_bottom.constprop	2
+../App/lib/lvgl/src/core/lv_obj_style.h:280:23:lv_obj_get_style_space_bottom.constprop	1
 ../App/lib/lvgl/src/core/lv_obj_style.h:272:23:lv_obj_get_style_space_top.constprop	2
 ../App/lib/lvgl/src/core/lv_obj_style.h:264:23:lv_obj_get_style_space_right.constprop	2
 ../App/lib/lvgl/src/core/lv_obj_scroll.c:58:6:lv_obj_set_scrollbar_mode	2
@@ -32,6 +32,6 @@
 ../App/lib/lvgl/src/core/lv_obj_scroll.c:398:6:lv_obj_scroll_to_view_recursive	2
 ../App/lib/lvgl/src/core/lv_obj_scroll.c:429:6:lv_obj_is_scrolling	3
 ../App/lib/lvgl/src/core/lv_obj_scroll.c:440:6:lv_obj_update_snap	5
-../App/lib/lvgl/src/core/lv_obj_scroll.c:450:6:lv_obj_get_scrollbar_area	60
+../App/lib/lvgl/src/core/lv_obj_scroll.c:450:6:lv_obj_get_scrollbar_area	57
 ../App/lib/lvgl/src/core/lv_obj_scroll.c:623:6:lv_obj_scrollbar_invalidate	5
 ../App/lib/lvgl/src/core/lv_obj_scroll.c:635:6:lv_obj_readjust_scroll	10

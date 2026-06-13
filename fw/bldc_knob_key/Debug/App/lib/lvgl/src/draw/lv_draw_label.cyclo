@@ -1,4 +1,4 @@
-../App/lib/lvgl/src/draw/../misc/lv_text_private.h:165:20:lv_text_is_marker	9
+../App/lib/lvgl/src/draw/../misc/lv_text_private.h:165:20:lv_text_is_marker	8
 ../App/lib/lvgl/src/draw/lv_draw_label.c:58:6:lv_draw_label_dsc_init	1
 ../App/lib/lvgl/src/draw/lv_draw_label.c:72:23:lv_draw_task_get_label_dsc	2
 ../App/lib/lvgl/src/draw/lv_draw_label.c:77:6:lv_draw_glyph_dsc_init	1

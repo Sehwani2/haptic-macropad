@@ -13,7 +13,7 @@
 ../App/lib/lvgl/src/widgets/scale/lv_scale.c:742:13:scale_draw_main	216	static
 ../App/lib/lvgl/src/widgets/scale/lv_scale.c:941:13:scale_get_tick_points	168	static
 ../App/lib/lvgl/src/widgets/scale/lv_scale.c:683:13:scale_calculate_main_compensation	200	static
-../App/lib/lvgl/src/widgets/scale/lv_scale.c:530:13:scale_draw_indicator	424	static
+../App/lib/lvgl/src/widgets/scale/lv_scale.c:530:13:scale_draw_indicator	432	static
 ../App/lib/lvgl/src/widgets/scale/lv_scale.c:478:13:lv_scale_event	16	static
 ../App/lib/lvgl/src/widgets/scale/lv_scale.c:92:12:lv_scale_create	8	static
 ../App/lib/lvgl/src/widgets/scale/lv_scale.c:112:6:lv_scale_set_mode	0	static

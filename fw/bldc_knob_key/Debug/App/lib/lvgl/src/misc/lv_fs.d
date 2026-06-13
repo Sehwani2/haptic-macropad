@@ -3,7 +3,7 @@ App/lib/lvgl/src/misc/lv_fs.o: ../App/lib/lvgl/src/misc/lv_fs.c \
  ../App/lib/lvgl/src/misc/lv_fs.h \
  ../App/lib/lvgl/src/misc/../lv_conf_internal.h \
  ../App/lib/lvgl/src/misc/../lv_conf_kconfig.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h \
  ../App/lib/lvgl/src/misc/lv_types.h \
  ../App/lib/lvgl/src/misc/../misc/lv_assert.h \
  ../App/lib/lvgl/src/misc/../misc/../lv_conf_internal.h \
@@ -207,7 +207,7 @@ App/lib/lvgl/src/misc/lv_fs.o: ../App/lib/lvgl/src/misc/lv_fs.c \
 ../App/lib/lvgl/src/misc/lv_fs.h:
 ../App/lib/lvgl/src/misc/../lv_conf_internal.h:
 ../App/lib/lvgl/src/misc/../lv_conf_kconfig.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h:
 ../App/lib/lvgl/src/misc/lv_types.h:
 ../App/lib/lvgl/src/misc/../misc/lv_assert.h:
 ../App/lib/lvgl/src/misc/../misc/../lv_conf_internal.h:

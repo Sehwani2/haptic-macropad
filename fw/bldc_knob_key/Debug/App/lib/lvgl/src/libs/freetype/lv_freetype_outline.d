@@ -5,7 +5,7 @@ App/lib/lvgl/src/libs/freetype/lv_freetype_outline.o: \
  ../App/lib/lvgl/src/libs/freetype/../../misc/lv_types.h \
  ../App/lib/lvgl/src/libs/freetype/../../misc/../lv_conf_internal.h \
  ../App/lib/lvgl/src/libs/freetype/../../misc/../lv_conf_kconfig.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h \
  ../App/lib/lvgl/src/libs/freetype/../../misc/lv_array.h \
  ../App/lib/lvgl/src/libs/freetype/../../lvgl.h \
  ../App/lib/lvgl/src/libs/freetype/../../../lvgl.h \
@@ -417,7 +417,7 @@ App/lib/lvgl/src/libs/freetype/lv_freetype_outline.o: \
 ../App/lib/lvgl/src/libs/freetype/../../misc/lv_types.h:
 ../App/lib/lvgl/src/libs/freetype/../../misc/../lv_conf_internal.h:
 ../App/lib/lvgl/src/libs/freetype/../../misc/../lv_conf_kconfig.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h:
 ../App/lib/lvgl/src/libs/freetype/../../misc/lv_array.h:
 ../App/lib/lvgl/src/libs/freetype/../../lvgl.h:
 ../App/lib/lvgl/src/libs/freetype/../../../lvgl.h:

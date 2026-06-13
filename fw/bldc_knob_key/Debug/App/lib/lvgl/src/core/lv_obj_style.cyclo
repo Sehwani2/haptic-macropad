@@ -4,7 +4,7 @@
 ../App/lib/lvgl/src/core/lv_obj_style.c:778:13:refresh_children_style	2
 ../App/lib/lvgl/src/core/lv_obj_style.c:1023:13:fade_anim_cb	1
 ../App/lib/lvgl/src/core/lv_obj_style.c:801:13:trans_delete.isra	12
-../App/lib/lvgl/src/core/lv_obj_style.c:670:25:get_trans_style	6
+../App/lib/lvgl/src/core/lv_obj_style.c:670:25:get_trans_style	7
 ../App/lib/lvgl/src/core/lv_obj_style.c:1033:13:style_has_flag.constprop	6
 ../App/lib/lvgl/src/core/lv_obj_style.c:84:6:lv_obj_style_init	1
 ../App/lib/lvgl/src/core/lv_obj_style.c:89:6:lv_obj_style_deinit	2
@@ -19,12 +19,12 @@
 ../App/lib/lvgl/src/core/lv_obj_style.c:570:17:lv_obj_calculate_style_text_align	1
 ../App/lib/lvgl/src/core/lv_obj_style.c:578:10:lv_obj_get_style_opa_recursive	8
 ../App/lib/lvgl/src/core/lv_obj_style.c:611:6:lv_obj_update_layer_type	10
-../App/lib/lvgl/src/core/lv_obj_style.c:275:6:lv_obj_refresh_style	21
+../App/lib/lvgl/src/core/lv_obj_style.c:275:6:lv_obj_refresh_style	19
 ../App/lib/lvgl/src/core/lv_obj_style.c:157:6:lv_obj_replace_style	13
 ../App/lib/lvgl/src/core/lv_obj_style.c:203:6:lv_obj_remove_style	17
 ../App/lib/lvgl/src/core/lv_obj_style.c:256:6:lv_obj_remove_style_all	1
 ../App/lib/lvgl/src/core/lv_obj_style.c:922:13:trans_anim_completed_cb	10
-../App/lib/lvgl/src/core/lv_obj_style.c:98:6:lv_obj_add_style	9
+../App/lib/lvgl/src/core/lv_obj_style.c:98:6:lv_obj_add_style	10
 ../App/lib/lvgl/src/core/lv_obj_style.c:756:13:report_style_change_core	5
 ../App/lib/lvgl/src/core/lv_obj_style.c:261:6:lv_obj_report_style_change	4
 ../App/lib/lvgl/src/core/lv_obj_style.c:353:6:lv_obj_set_local_style_prop	10

@@ -5,7 +5,7 @@
 ../App/lib/lvgl/src/widgets/arc/../../core/lv_obj_style_gen.h:166:23:lv_obj_get_style_pad_right	1
 ../App/lib/lvgl/src/widgets/arc/../../core/lv_obj_style_gen.h:148:23:lv_obj_get_style_pad_top	1
 ../App/lib/lvgl/src/widgets/arc/../../core/lv_obj_style_gen.h:154:23:lv_obj_get_style_pad_bottom	1
-../App/lib/lvgl/src/widgets/arc/lv_arc.c:811:13:get_center	2
+../App/lib/lvgl/src/widgets/arc/lv_arc.c:811:13:get_center	3
 ../App/lib/lvgl/src/widgets/arc/lv_arc.c:852:13:get_knob_area	1
 ../App/lib/lvgl/src/widgets/arc/lv_arc.c:412:13:lv_arc_constructor	1
 ../App/lib/lvgl/src/widgets/arc/lv_arc.c:760:13:inv_arc_area	7
@@ -21,7 +21,7 @@
 ../App/lib/lvgl/src/widgets/arc/lv_arc.c:191:6:lv_arc_set_bg_angles	1
 ../App/lib/lvgl/src/widgets/arc/lv_arc.c:197:6:lv_arc_set_rotation	3
 ../App/lib/lvgl/src/widgets/arc/lv_arc.c:239:6:lv_arc_set_value	3
-../App/lib/lvgl/src/widgets/arc/lv_arc.c:443:13:lv_arc_event	54
+../App/lib/lvgl/src/widgets/arc/lv_arc.c:443:13:lv_arc_event	53
 ../App/lib/lvgl/src/widgets/arc/lv_arc.c:210:6:lv_arc_set_mode	4
 ../App/lib/lvgl/src/widgets/arc/lv_arc.c:256:6:lv_arc_set_range	5
 ../App/lib/lvgl/src/widgets/arc/lv_arc.c:276:6:lv_arc_set_change_rate	1

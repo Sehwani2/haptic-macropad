@@ -17,9 +17,9 @@
 ../App/common/src/cli.c:598:6:cliPrintf	1
 ../App/common/src/cli.c:751:6:cliShowList	2
 ../App/common/src/cli.c:768:6:cliMemoryDump	9
-../App/common/src/cli.c:523:6:cliRunCmd.constprop	5
+../App/common/src/cli.c:523:6:cliRunCmd.constprop.isra	5
 ../App/common/src/cli.c:583:6:cliRunStr	1
-../App/common/src/cli.c:206:6:cliMain	34
+../App/common/src/cli.c:206:6:cliMain	35
 ../App/common/src/cli.c:612:6:cliPutch	1
 ../App/common/src/cli.c:713:6:cliKeepLoop	1
 ../App/common/src/cli.c:728:6:cliAdd	2

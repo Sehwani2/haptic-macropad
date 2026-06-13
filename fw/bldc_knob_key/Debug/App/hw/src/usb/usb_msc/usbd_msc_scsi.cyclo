@@ -3,5 +3,5 @@
 ../App/hw/src/usb/usb_msc/usbd_msc_scsi.c:1183:15:SCSI_ProcessRead	4
 ../App/hw/src/usb/usb_msc/usbd_msc_scsi.c:1157:15:SCSI_CheckAddressRange	3
 ../App/hw/src/usb/usb_msc/usbd_msc_scsi.c:1290:15:SCSI_UpdateBotData.isra	3
-../App/hw/src/usb/usb_msc/usbd_msc_scsi.c:123:8:SCSI_ProcessCmd	76
+../App/hw/src/usb/usb_msc/usbd_msc_scsi.c:123:8:SCSI_ProcessCmd	77
 ../App/hw/src/usb/usb_msc/usbd_msc_scsi.c:615:6:SCSI_SenseCode	3

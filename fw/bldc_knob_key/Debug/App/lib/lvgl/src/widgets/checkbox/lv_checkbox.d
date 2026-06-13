@@ -4,7 +4,7 @@ App/lib/lvgl/src/widgets/checkbox/lv_checkbox.o: \
  ../App/lib/lvgl/src/widgets/checkbox/lv_checkbox.h \
  ../App/lib/lvgl/src/widgets/checkbox/../../lv_conf_internal.h \
  ../App/lib/lvgl/src/widgets/checkbox/../../lv_conf_kconfig.h \
- C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h \
+ C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h \
  ../App/lib/lvgl/src/widgets/checkbox/../../core/lv_obj.h \
  ../App/lib/lvgl/src/widgets/checkbox/../../core/../lv_conf_internal.h \
  ../App/lib/lvgl/src/widgets/checkbox/../../core/../misc/lv_types.h \
@@ -144,7 +144,7 @@ App/lib/lvgl/src/widgets/checkbox/lv_checkbox.o: \
 ../App/lib/lvgl/src/widgets/checkbox/lv_checkbox.h:
 ../App/lib/lvgl/src/widgets/checkbox/../../lv_conf_internal.h:
 ../App/lib/lvgl/src/widgets/checkbox/../../lv_conf_kconfig.h:
-C:/stm32/balancing_robot/bldc_knob_key/App/lib/lv_conf.h:
+C:/stm32/balancing_robot/haptic-macropad/fw/bldc_knob_key/App/lib/lv_conf.h:
 ../App/lib/lvgl/src/widgets/checkbox/../../core/lv_obj.h:
 ../App/lib/lvgl/src/widgets/checkbox/../../core/../lv_conf_internal.h:
 ../App/lib/lvgl/src/widgets/checkbox/../../core/../misc/lv_types.h:
