@@ -161,27 +161,28 @@ For future revisions:
 should be considered.
 
 ---
-Possible causes:
-- Initial electrical angle issue
-- Encoder offset issue
-- FOC control loop timing issue (suspected)
+BLDC Motor Startup Realignment & Vibration (Resolved)
+During the initial startup calibration (D-axis alignment), the motor occasionally experienced high-frequency vibration or failure to align. This happened when the rotor was accidentally positioned at a 180° electrical angle relative to the target vector—creating a physical equilibrium dead-lock—or due to raw register noise from the encoder on power-up.
 
-The FOC control loop may not be running with sufficient timing determinism during startup. Migration to an RTOS-based implementation is being evaluated.
+Solution
+Developed an anti-deadlock startup sequence in firmware:
 
-Currently under investigation.
+Encoder Dummy Loop: Flushes initial hardware register spikes for 300ms before triggering the align phase.
 
----
+Phase-Kick Start: Forcefully injects a 90° phase offset for 50ms to instantly break any physical equilibrium dead-lock regardless of the rotor's initial resting position.
 
-# Future Improvements
-- [ ] Fix Motor Alignment Issue
-- [ ] NeoPixel LED integration
-- [ ]  Ambient Light Sensor integration
-- [ ] Additional Haptic Effects
-- [ ] 3D Printed Case
-- [ ] GUI improvements
-- [ ] RTOS porting
+Soft-Start Ramp: Smoothly ramps up the alignment voltage to lock the target 0° electrical angle without physical resonance or overshoot.
 
----
+This fully resolved the startup jitter, ensuring a reliable 100% alignment rate.
+
+Future Improvements
+[x] Fix Motor Alignment & Startup Jitter Issue
+[ ] NeoPixel LED integration
+[ ] Ambient Light Sensor integration
+[ ] Additional Haptic Effects (Spring, Barrier, Detent Customization)
+[ ] 3D Printed Case
+[ ] GUI improvements (LVGL Page animations)
+[ ] RTOS porting
 
 
 # Reference
