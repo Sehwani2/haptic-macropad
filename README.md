@@ -179,11 +179,17 @@ Soft-Start Ramp: Smoothly ramps up the alignment voltage to lock the target 0° 
 
 Future Improvements
 [x] Fix Motor Alignment & Startup Jitter Issue
+
 [ ] NeoPixel LED integration
+
 [ ] Ambient Light Sensor integration
+
 [ ] Additional Haptic Effects (Spring, Barrier, Detent Customization)
+
 [ ] 3D Printed Case
+
 [ ] GUI improvements (LVGL Page animations)
+
 [ ] RTOS porting
 
 
